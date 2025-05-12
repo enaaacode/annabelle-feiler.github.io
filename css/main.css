@@ -265,7 +265,14 @@ body {
 .section-headline {
   padding-bottom: 1rem;
   text-align: center;
+  width: 70%;
   margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .section-headline {
+    width: 100%;
+  }
 }
 
 .leistungen-grid,

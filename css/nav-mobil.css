@@ -1,0 +1,38 @@
+body {
+  background-color: var(--bg-secondary);
+  margin: 0;
+  font-family: "League Spartan", sans-serif;
+}
+
+.mobile-menu-overlay {
+  background-color: var(--bg-secondary);
+  padding: 2rem;
+}
+
+.close-button {
+  all: unset;
+  display: flex;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.close-button img {
+  width: 24px;
+}
+
+.mobile-nav {
+  font-size: 2rem;
+}
+
+.mobile-nav ul {
+  list-style: none;
+}
+
+.mobile-nav li {
+  margin: 1rem 0;
+}
+
+.mobile-nav a {
+  color: var(--text-headline);
+  text-decoration: none;
+}

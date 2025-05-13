@@ -370,6 +370,56 @@ body {
   background-color: #c849d7;
 }
 
+/* Resume
+------------------------------------------
+------------------------------------------ */
+
+.resume-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-default);
+}
+
+.resume-grid-outterbox {
+  display: flex;
+  flex-direction: column;
+  background-color: #293852;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.resume-grid-box {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-secondary);
+  padding: var(--gap-default);
+}
+
+.resume-firstline {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.resume-firstline--outter {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0.5rem;
+}
+
+.resume-date {
+  color: var(--text-headline);
+}
+
+.resume-details {
+  padding-bottom: 0.5rem;
+}
+
+.resume-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
 /* Unterseiten Content-Box
 ------------------------------------------
 ------------------------------------------ */
@@ -383,6 +433,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--gap-default);
+  width: 100%;
 }
 
 /* a11y-webring-club

@@ -348,14 +348,17 @@ body {
 }
 
 .blog-label {
+  display: inline-flex;
+  align-self: flex-start; /* <- wichtig */
   margin-left: auto;
   font-family: "League Spartan", sans-serif;
   font-size: 0.8rem;
   color: var(--text-button);
   border-radius: 0.5rem;
-  padding-top: 0.35rem; /* optisch ausgeglichen */
+  padding-top: 0.35rem;
   padding-bottom: 0.3rem;
   padding-inline: 0.5rem;
+  white-space: nowrap;
 }
 
 .label-about {
@@ -396,14 +399,17 @@ body {
 }
 
 .resume-firstline {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
 }
 
 .resume-firstline--outter {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   padding: 0.5rem;
+}
+
+.resume-titel a {
+  text-decoration: none;
+  color: var(--text-headline);
 }
 
 .resume-date {

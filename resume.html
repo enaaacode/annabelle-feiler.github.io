@@ -12,15 +12,14 @@
       <header class="header">
         <div class="header-content">
           <div class="header-logo">
-            <a href="/index.html">
-              <img
-                src="assets/logo/studio_feiler_logo.svg"
-                width="200"
-                alt="Studio Feiler Logo"
-              />
-            </a>
+            <img
+              src="assets/logo/studio_feiler_logo.gif"
+              width="200"
+              alt="Studio Feiler Logo"
+            />
           </div>
 
+          <!-- Navigation für Desktop -->
           <div class="header-nav">
             <nav class="leadtext" aria-label="Hauptnavigation">
               <ul>
@@ -30,19 +29,40 @@
                 <li>
                   <a
                     href="mailto:hello@annabelle-feiler.com?subject=Anfrage&body=Hi Annabelle, "
+                    >Kontakt</a
                   >
-                    Kontakt
-                  </a>
                 </li>
               </ul>
             </nav>
           </div>
 
+          <!-- Burger-Menü Button für Mobile -->
           <nav class="burger-menue">
-            <a href="/nav-mobil.html">
-              <img src="assets/icons/burger_menue.svg" alt="Menü" />
+            <a href="javascript:void(0);" id="burger-icon">
+              <img src="assets/icons/burger_menue.svg" alt="Burger Menu" />
             </a>
           </nav>
+
+          <!-- Overlay für das mobile Menü -->
+          <div id="mobile-overlay" class="mobile-overlay">
+            <div class="close-button" id="close-button">
+              <img src="assets/icons/xmark.svg" alt="Schließen" />
+            </div>
+            <nav class="mobile-nav">
+              <ul>
+                <li><a href="/index.html">Start</a></li>
+                <li><a href="/index.html#leistungen">Leistungen</a></li>
+                <li><a href="/index.html#blog">Blog</a></li>
+                <li>
+                  <a
+                    href="mailto:hello@annabelle-feiler.com?subject=Anfrage&body=Hi Annabelle,"
+                    >Kontakt</a
+                  >
+                </li>
+                <li><a href="/impressum.html">Impressum</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </header>
 
@@ -685,5 +705,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/script.js" defer></script>
   </body>
 </html>

@@ -513,11 +513,11 @@ footer p strong {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* Dunkler Hintergrund */
-  display: none; /* Anfangs verborgen */
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
   align-items: center;
   flex-direction: column;
-  z-index: 999; /* Über anderen Inhalten */
+  z-index: 999;
   transition: all 0.3s ease;
 }
 

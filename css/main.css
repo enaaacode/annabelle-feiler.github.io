@@ -218,6 +218,14 @@ body {
   padding: 0.25rem;
 }
 
+.intro-text a {
+  color: var(--text-headline);
+}
+
+.intro-text a:hover {
+  font-weight: bold;
+}
+
 /* Intro Grid
 ------------------------------------------
 ------------------------------------------ */
@@ -275,6 +283,9 @@ body {
   }
 }
 
+.section-headline a {
+  color: var(--text-button);
+}
 .leistungen-grid,
 .blog-grid {
   display: grid;
@@ -426,20 +437,33 @@ body {
   gap: 0.25rem;
 }
 
-/* Unterseiten Content-Box
+/* Unterseiten Content-Box (z. B. Impressum)
 ------------------------------------------
 ------------------------------------------ */
 
 .content-box {
   background-color: var(--bg-secondary);
   padding: var(--gap-default);
+  display: flex;
+  flex-direction: row;
 }
 
 .content-blocks {
   display: flex;
   flex-direction: column;
   gap: var(--gap-default);
-  width: 100%;
+}
+
+.content-blocks a {
+  color: var(--text-headline);
+}
+
+.content-blocks a:hover {
+  font-weight: bold;
+}
+
+.content-blocks ul li {
+  line-height: 1.8;
 }
 
 /* a11y-webring-club
@@ -465,8 +489,13 @@ body {
 .a11y-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  gap: var(--gap-default);
   margin-top: 1rem;
+}
+
+.a11y-info {
+  padding: 1rem;
+  text-align: center;
 }
 
 /* Footer

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="UX/UI & Visual Design Blog by Annabelle Feiler"
+    />
+    <meta
+      name="keywords"
+      content="Barrierefreies Webdesign, a11y, Barrierefreiheit, Accessibility, WCAG, BITV"
+    />
+    <meta name="author" content="Annabelle Feiler" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digitale Barrierefreiheit</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml" />
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <header class="header">
+        <div class="header-content">
+          <div class="header-logo">
+            <a href="/index.html">
+              <img
+                src="assets/logo/studio_feiler_logo.svg"
+                width="200"
+                alt="Studio Feiler Logo"
+              />
+            </a>
+          </div>
+
+          <div class="header-nav">
+            <nav class="leadtext" aria-label="Hauptnavigation">
+              <ul>
+                <li><a href="/index.html">Start</a></li>
+                <li><a href="/index.html#leistungen">Leistungen</a></li>
+                <li><a href="/index.html#blog">Blog</a></li>
+                <li>
+                  <a
+                    href="mailto:hello@annabelle-feiler.com?subject=Anfrage&body=Hi Annabelle,"
+                    >Kontakt</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <nav class="burger-menue">
+            <a href="javascript:void(0);" id="burger-icon">
+              <img src="assets/icons/burger_menue.svg" alt="Burger Menu" />
+            </a>
+          </nav>
+
+          <div id="mobile-overlay" class="mobile-overlay">
+            <div class="close-button" id="close-button">
+              <img src="assets/icons/xmark.svg" alt="Schließen" />
+            </div>
+            <nav class="mobile-nav">
+              <ul>
+                <li><a href="/index.html">Start</a></li>
+                <li><a href="/index.html#leistungen">Leistungen</a></li>
+                <li><a href="/index.html#blog">Blog</a></li>
+                <li>
+                  <a
+                    href="mailto:hello@annabelle-feiler.com?subject=Anfrage&body=Hi Annabelle,"
+                    >Kontakt</a
+                  >
+                </li>
+                <li><a href="/impressum.html">Impressum</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="intro-content">
+          <div class="intro-box boxradius">
+            <div class="intro-image boxradius">
+              <img src="assets/images/a11y_titelbild.png" />
+            </div>
+            <div class="intro-text">
+              <h1>Digitale Barrierefreiheit</h1>
+              <p>
+                Warum digitale Barrierefreiheit so wichtig ist, wird oft
+                unterschätzt. Viele denken, es gehe nur darum, Webseiten für
+                Menschen mit Behinderungen zugänglicher zu machen. Doch die
+                Wahrheit ist: Eine gut zugängliche Webseite oder App bietet für
+                alle eine bessere Nutzererfahrung. Ob du nun eine Brille trägst,
+                in einer lauten Umgebung unterwegs bist oder einfach mit einem
+                kleinen Touchscreen hantierst. Außerdem ist Barrierefreiheit
+                nicht nur ein ethisches Prinzip, sondern auch gesetzlich
+                verankert. In Deutschland etwa durch das
+                <a
+                  href="https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/barrierefreiheitsstaerkungsgesetz.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Barrierefreiheitsstärkungsgesetz.</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <section class="wcag-prinzipien">
+          <div class="section-headline">
+            <h2>Vier Prinzipien</h2>
+            <p>
+              für barrierefreie Webinhalte nach
+              <a
+                href="https://www.w3.org/WAI/standards-guidelines/wcag/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >WCAG 2.2</a
+              >
+            </p>
+          </div>
+          <div class="leistungen-grid">
+            <div class="leistungen-grid-box boxradius">
+              <div class="leistungen-grid-text">
+                <h3>1. Wahrnehmbarkeit</h3>
+                <p>
+                  Alle Informationen sollen so aufbereitet sein, dass sie für
+                  möglichst viele Menschen zugänglich sind. Bilder brauchen
+                  Alternativtexte und Videos brauchen Untertiteln. Inhalte
+                  dürfen nicht nur über Farbe, Ton oder Bewegung vermittelt
+                  werden.
+                </p>
+              </div>
+            </div>
+            <div class="leistungen-grid-box boxradius">
+              <div class="leistungen-grid-text">
+                <h3>2. Bedienbarkeit</h3>
+                <p>
+                  Nutzende müssen mit allen Inhalten problemlos interagieren
+                  können. Die Seite soll auch mit der Tastatur vollständig
+                  bedienbar sein. Schaltflächen und Links brauchen ausreichend
+                  Abstand und eine klare visuelle Hervorhebung.
+                </p>
+              </div>
+            </div>
+            <div class="leistungen-grid-box boxradius">
+              <div class="leistungen-grid-text">
+                <h3>3. Verständlichkeit</h3>
+                <p>
+                  Texte sollen leicht verständlich und klar formuliert sein. Die
+                  Navigation folgt einer logischen Struktur. Auch visuelle
+                  Elemente wie Farben, Icons oder Buttons sollten
+                  selbsterklärend gestaltet sein.
+                </p>
+              </div>
+            </div>
+            <div class="leistungen-grid-box boxradius">
+              <div class="leistungen-grid-text">
+                <h3>4. Robustheit</h3>
+                <p>
+                  Digitale Inhalte müssen mit unterschiedlichen Geräten und
+                  Technologien funktionieren. Auch Screenreader und ältere
+                  Browser sollen alles korrekt erfassen können. Der Code sollte
+                  sauber und zukunftsfähig sein.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="button">
+            <a
+              class="button-primary"
+              href="mailto:hello@annabelle-feiler.com?subject=Anfrage&body=Hi Annabelle, "
+              aria-label="Annabelle direkt per E-Mail kontaktieren"
+              >Projekt anfragen</a
+            >
+          </div>
+        </section>
+      </main>
+      <!------------ a11y-webring-club ------------>
+      <nav
+        class="a11y-webring-club boxradius"
+        aria-labelledby="a11y-webring-club"
+      >
+        <h2 id="a11y-webring-club">a11y-webring.club</h2>
+        <p>
+          Diese Website ist Mitglied des
+          <a rel="external" href="https://a11y-webring.club/"
+            >a11y-webring.club</a
+          >.
+        </p>
+        <div class="a11y-grid">
+          <div class="a11y-box">
+            <a
+              rel="external"
+              referrerpolicy="strict-origin"
+              href="https://a11y-webring.club/prev"
+              >Vorherige Website</a
+            >
+          </div>
+          <div class="a11y-box">
+            <a
+              rel="external"
+              referrerpolicy="strict-origin"
+              href="https://a11y-webring.club/random"
+              >Zufällige Website</a
+            >
+          </div>
+          <div class="a11y-box">
+            <a
+              rel="external"
+              referrerpolicy="strict-origin"
+              href="https://a11y-webring.club/next"
+              >Nächste Website</a
+            >
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>💜</p>
+        <p class="footer-text">
+          Diese Seite wurde mit <strong>HTML</strong>, <strong>CSS</strong> und
+          <strong>JavaScript</strong> selbst gemacht. Ganz ohne unnötigen
+          Schnickschnack. <br />Einfach, funktional und umweltfreundlich.
+          Weniger Code, weniger Energieverbrauch.<br />
+          &copy; 2025 Annabelle Feiler – Alle Rechte vorbehalten
+        </p>
+        <div class="footer-imprint">
+          <a href="/impressum.html" class="footer-link">Impressum</a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>

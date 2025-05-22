@@ -137,7 +137,7 @@ p {
 }
 
 .heading p {
-  width: 80ch;
+  width: 80%;
   text-align: center;
   margin: 0 auto;
   font-family: var(--font-mono);
@@ -297,9 +297,6 @@ p {
   .intro-image,
   .intro-text {
     width: 100%;
-    text-align: center;
-    align-items: center;
-    padding: 0;
   }
   .intro-text {
     padding-right: 0;

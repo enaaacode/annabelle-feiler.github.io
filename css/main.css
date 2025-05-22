@@ -18,7 +18,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Seite mindestens volle Höhe */
+  min-height: 100vh;
   font-family: var(--font-body);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-normal);
@@ -133,6 +133,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  align-items: center;
 }
 
 .heading p {
@@ -349,10 +350,17 @@ p {
 
 .leistungen,
 .blog,
-.impressum {
+.impressum,
+.error {
   display: flex;
   flex-direction: column;
   gap: var(--spacing);
+}
+
+.error {
+  min-height: 60vh;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Leistungen-Section Layout */
@@ -456,6 +464,7 @@ p {
   padding-bottom: 0.3rem;
   padding-inline: 0.5rem;
   white-space: nowrap;
+  color: var(--color-text-button);
 }
 
 .label-about {
@@ -566,11 +575,10 @@ p {
 .burger-menue {
   display: none;
   width: 24px;
-  height: 24px; /* Höhe ergänzen */
+  height: 24px;
   cursor: pointer;
 }
 
-/* Falls du ein <img> im Burger-Menü hast: */
 .burger-menue img {
   width: 100%;
   height: 100%;

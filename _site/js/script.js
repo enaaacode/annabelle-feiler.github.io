@@ -25,7 +25,55 @@ overlayLinks.forEach(function (link) {
   });
 });
 
-// Die 50 beim "Projekte realisiert" wird hochgezählt
+// ===========================================================
+// ======================= AKKORDEON =========================
+// ===========================================================
+
+// Akkordeon-Logik
+document.querySelectorAll(".accordion-toggle").forEach((btn) => {
+  btn.addEventListener("click", function () {
+    // Das nächste Element nach dem Parent ist der Akkordeon-Inhalt
+    const parent = this.closest(".content-blocks--faq-question");
+    const content = parent.nextElementSibling;
+    const expanded = this.getAttribute("aria-expanded") === "true";
+    this.setAttribute("aria-expanded", !expanded);
+    content.hidden = expanded;
+    // Plus/Minus-Zeichen wechseln
+    const icon = this.querySelector(".plusminus");
+    if (icon) icon.textContent = expanded ? "+" : "-";
+  });
+});
+
+// ===========================================================
+// ================== SCROLL BACK UP BUTTON =================
+// ===========================================================
+
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+// ===========================================================
+// ========== Die 50 beim "Projekte realisiert" zählt hoch ====
+// ===========================================================
+
 /*document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".intro-grid-zahl").forEach(function (el) {
     const target = parseInt(el.textContent, 10);

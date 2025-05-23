@@ -128,6 +128,10 @@ p {
   font-family: var(--font-mono);
 }
 
+.font-accent {
+  color: #e265f2;
+}
+
 /* Überschrift und Beschreibung über jeder Section */
 .heading {
   display: flex;

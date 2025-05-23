@@ -320,6 +320,9 @@ p {
   .intro-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .intro-grid-zahl {
+    font-size: var(--font-size-lg);
+  }
 }
 
 /* Einzelne Grid-Box */

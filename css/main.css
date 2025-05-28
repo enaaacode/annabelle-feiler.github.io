@@ -126,6 +126,7 @@ p {
 /* Monospace-Stil für Code */
 .code-style {
   font-family: var(--font-mono);
+  font-size: var(--font-size-sm);
 }
 
 .font-accent {
@@ -414,6 +415,15 @@ p {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+/* Aufzählungen/Listen in der Leistungen-Box */
+
+.leistungen-grid-text ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 1rem;
 }
 
 /* ========================================================= */

@@ -4,3 +4,8 @@ _site/css/privat.css
 _site/resume.html
 _site/resume_en.html
 coverletter.html
+_site/js/github_api.js
+js/github_api.js
+css/github_api.css
+_site/css/github_api.css
+.DS_Store

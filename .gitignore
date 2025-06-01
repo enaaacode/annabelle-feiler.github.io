@@ -3,7 +3,7 @@
 _site/
 -drafts/
 
-privat_Bewerbung/
+privat/
 _layouts/privat.html
 
 js/github_api.js

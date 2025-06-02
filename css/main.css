@@ -266,12 +266,17 @@ span {
 }
 
 .site-footer__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   color: var(--color-text);
+  margin: 0 auto;
 }
 
 .site-footer__meta--links {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 1rem;
   margin: 0 auto;
 }

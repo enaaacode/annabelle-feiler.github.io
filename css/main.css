@@ -154,6 +154,46 @@ span {
 }
 
 /* ========================================================= */
+/* ======================= BUTTONS ========================= */
+/* ========================================================= */
+
+/* Basis-Button-Stil */
+.button {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  all: unset;
+  cursor: pointer;
+}
+
+/* Link-Stil im Button */
+.button a,
+.button-primary a {
+  color: var(--color-text-button);
+  text-decoration: none;
+  font-weight: var(--font-weight-bold);
+}
+
+/* Primärer Button */
+.button-primary {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  all: unset;
+  cursor: pointer;
+  width: fit-content;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  background: var(--accent-gradient);
+  text-align: center;
+  text-decoration: none;
+}
+
+.button-primary:hover {
+  transform: scale(1.02);
+}
+
+/* ========================================================= */
 /* ======================= HEADER ========================== */
 /* ========================================================= */
 
@@ -227,6 +267,12 @@ span {
 
 .site-footer__meta {
   color: var(--color-text);
+}
+
+.site-footer__meta--links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 .site-footer__link {
@@ -428,128 +474,6 @@ span {
   flex-direction: column;
   gap: 0.5rem;
   padding-left: 1rem;
-}
-
-/* ========================================================= */
-/* ===================== BLOG GRID ========================= */
-/* ========================================================= */
-
-/* Blog Grid (falls verwendet) */
-.blog-grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: stretch;
-}
-
-.blog-grid a {
-  text-decoration: none;
-}
-
-@media (max-width: 700px) {
-  .blog-grid {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-.blog-grid-box {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--color-bg-cards);
-  aspect-ratio: 4 / 3;
-  padding: var(--spacing);
-  cursor: pointer;
-  transition: transform 0.5s ease;
-  text-align: left;
-}
-
-.blog-grid-box.noratio {
-  aspect-ratio: unset;
-  gap: 0.5rem;
-}
-
-.blog-grid-box.noratio:hover {
-  transform: unset;
-  cursor: unset;
-}
-
-.blog-grid-box:hover {
-  transform: scale(1.05);
-}
-
-.blog-titel {
-  margin-top: auto;
-}
-
-.blog-label {
-  display: inline-flex;
-  align-self: flex-start;
-  margin-left: auto;
-  font-size: 0.8rem;
-  border-radius: 0.5rem;
-  padding-top: 0.35rem;
-  padding-bottom: 0.3rem;
-  padding-inline: 0.5rem;
-  white-space: nowrap;
-  color: var(--color-text-button);
-}
-
-.label-about {
-  background-color: #494bd7;
-}
-
-.label-methode {
-  background-color: #2da29d;
-}
-
-.label-projekt {
-  background-color: #c849d7;
-}
-
-.blog-button-wrapper {
-  display: flex;
-  justify-content: center;
-}
-
-/* ========================================================= */
-/* ======================= BUTTONS ========================= */
-/* ========================================================= */
-
-/* Basis-Button-Stil */
-.button {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  all: unset;
-  cursor: pointer;
-}
-
-/* Link-Stil im Button */
-.button a,
-.button-primary a {
-  color: var(--color-text-button);
-  text-decoration: none;
-  font-weight: var(--font-weight-bold);
-}
-
-/* Primärer Button */
-.button-primary {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  all: unset;
-  cursor: pointer;
-  width: fit-content;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.5rem;
-  background: var(--accent-gradient);
-  text-align: center;
-  text-decoration: none;
-}
-
-.button-primary:hover {
-  transform: scale(1.02);
 }
 
 /* ========================================================= */
@@ -776,3 +700,82 @@ span {
   margin: 0;
   padding: 0;
 }
+
+/* ============================================================== */
+/* ======================== BLOG GRID =========================== */
+/* ============================================================== */
+
+.blog-grid-container a {
+  all: unset;
+}
+
+.blog-grid-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: stretch;
+}
+
+@media (max-width: 700px) {
+  .blog-grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.blog-grid--element {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.blog-grid--element-image {
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 4/3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.5s ease;
+}
+
+.blog-grid--element-image:hover {
+  transform: scale(1.05);
+}
+
+.blog-grid--element-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: inherit;
+}
+
+.label {
+  display: inline-flex;
+  align-self: flex-start;
+  font-size: 0.8rem;
+  border-radius: 0.5rem;
+  padding-top: 0.35rem;
+  padding-bottom: 0.3rem;
+  padding-inline: 0.5rem;
+  white-space: nowrap;
+  color: var(--color-text-button);
+  text-transform: capitalize;
+}
+
+.code {
+  background-color: #494bd7;
+}
+
+.methode {
+  background-color: #2da29d;
+}
+
+.projekt {
+  background-color: #c849d7;
+}
+
+/* ======================== BLOG SEITE =========================== */

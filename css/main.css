@@ -1,8 +1,3 @@
-/* ========================================================= */
-/* ======================= RESET & BASICS ================== */
-/* ========================================================= */
-
-/* Grundlegender Reset für alle Elemente */
 *,
 *::before,
 *::after {
@@ -12,7 +7,7 @@
 }
 
 html {
-  scroll-behavior: smooth; /* Sanftes Scrollen für Ankerlinks */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -27,12 +22,7 @@ body {
   background-color: var(--color-bg);
 }
 
-/* ========================================================= */
-/* ======================= VARIABLEN ======================= */
-/* ========================================================= */
-
 :root {
-  /* Farben */
   --color-bg: #0d172c;
   --color-bg-cards: #202d43;
   --color-text: #d0d0d0;
@@ -40,23 +30,19 @@ body {
   --color-text-button: #ffffff;
   --color-accent: #d4145a;
   --accent-gradient: linear-gradient(90deg, #d4145a 0%, #9332ff 100%);
-  --accent-gradient-hover: linear-gradient(90deg, #9332ff 0%, #d4145a 100%);
 
-  /* Schriftarten */
-  --font-body: "DM Sans", sans-serif;
-  --font-heading: "DM Sans", sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
-    monospace;
+  --font-body: 'DM Sans', sans-serif;
+  --font-heading: 'DM Sans', sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
-  /* Schriftgrößen & Gewicht */
   --font-size-base: 1rem;
   --font-size-sm: 0.875rem;
   --font-size-lg: 1.25rem;
   --font-size-xl: 2rem;
+
   --font-weight-normal: 400;
   --font-weight-bold: 700;
 
-  /* Layout & Abstände */
   --line-height: 1.4;
   --spacing: 2rem;
   --gap: 1rem;
@@ -64,22 +50,12 @@ body {
   --max-width: 1000px;
 }
 
-/* ========================================================= */
-/* ======================= FONTS =========================== */
-/* ========================================================= */
-
-/* Einbindung der Hauptschriftart */
 @font-face {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-weight: 100 700;
   font-style: normal;
-  src: url("/assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf")
-    format("truetype");
+  src: url('/assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
 }
-
-/* ========================================================= */
-/* ======================= LAYOUT ========================== */
-/* ========================================================= */
 
 /* Zentrierter Hauptbereich mit max. Breite */
 main {
@@ -95,11 +71,6 @@ main {
   margin-bottom: 2rem;
 }
 
-/* ========================================================= */
-/* ===================== TYPOGRAFIE ======================== */
-/* ========================================================= */
-
-/* Überschriften-Stile */
 h1,
 h2,
 h3,
@@ -119,11 +90,25 @@ h2 {
 h3 {
   font-size: 1.25rem;
 }
+
 p {
   font-size: var(--font-size-base);
 }
 
-/* Monospace-Stil für Code */
+a {
+  color: var(--color-text);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  font-weight: var(--font-weight-normal);
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--color-accent);
+}
+
 .code-style {
   font-family: var(--font-mono);
   font-size: var(--font-size-sm);
@@ -157,7 +142,6 @@ span {
 /* ======================= BUTTONS ========================= */
 /* ========================================================= */
 
-/* Basis-Button-Stil */
 .button {
   text-align: center;
   display: flex;
@@ -166,21 +150,15 @@ span {
   cursor: pointer;
 }
 
-/* Link-Stil im Button */
 .button a,
-.button-primary a {
+.button.primary a {
   color: var(--color-text-button);
   text-decoration: none;
   font-weight: var(--font-weight-bold);
 }
 
 /* Primärer Button */
-.button-primary {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  all: unset;
-  cursor: pointer;
+.button.primary {
   width: fit-content;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
@@ -189,7 +167,7 @@ span {
   text-decoration: none;
 }
 
-.button-primary:hover {
+.button.primary:hover {
   transform: scale(1.02);
 }
 
@@ -197,7 +175,6 @@ span {
 /* ======================= HEADER ========================== */
 /* ========================================================= */
 
-/* Header-Bereich */
 .site-header {
   background-color: var(--color-bg);
   padding: var(--spacing) 0;
@@ -243,7 +220,6 @@ span {
 /* ======================= FOOTER ========================== */
 /* ========================================================= */
 
-/* Footer-Bereich */
 .site-footer {
   background-color: var(--color-bg-cards);
   text-align: center;
@@ -285,7 +261,6 @@ span {
   color: var(--color-text);
   text-decoration: none;
   font-weight: var(--font-weight-normal);
-  transition: text-decoration-thickness 0.2s, text-decoration-color 0.2s;
 }
 
 .site-footer__link:hover {
@@ -313,7 +288,7 @@ span {
   flex-direction: column;
   gap: 0.5rem;
 }
-/* Bild und Text gleich groß, nebeneinander */
+
 .intro-image,
 .intro-text {
   display: flex;
@@ -328,7 +303,6 @@ span {
   padding-right: 0.5rem;
 }
 
-/* Bild im Quadrat, füllt Container */
 .intro-image {
   aspect-ratio: 1 / 1;
   width: 100%;
@@ -342,12 +316,10 @@ span {
   display: block;
 }
 
-/* Abgerundete Boxen */
 .boxradius {
   border-radius: 1rem;
 }
 
-/* Responsive: Intro-Box untereinander auf kleinen Bildschirmen */
 @media (max-width: 800px) {
   .intro-box {
     flex-direction: column;
@@ -368,7 +340,6 @@ span {
 /* ===================== INTRO GRID ======================== */
 /* ========================================================= */
 
-/* Grid für Intro-Statistiken */
 .intro-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -376,14 +347,12 @@ span {
   margin-top: 1rem;
 }
 
-/* Responsive: 2 Spalten auf kleinen Bildschirmen */
 @media (max-width: 700px) {
   .intro-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Einzelne Grid-Box */
 .intro-grid-box {
   display: flex;
   flex-direction: column;
@@ -394,21 +363,18 @@ span {
   background-color: var(--color-bg-cards);
 }
 
-/* Zahl im Grid */
 .intro-grid-zahl {
   color: var(--color-text-heading);
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-bold);
 }
 
-/* Responsive: 2 Spalten auf kleinen Bildschirmen */
 @media (max-width: 700px) {
   .intro-grid-zahl {
     font-size: 1.75rem;
   }
 }
 
-/* Beschreibung im Grid */
 .intro-grid-text {
   font-size: var(--font-size-sm);
   color: var(--color-text);
@@ -434,19 +400,16 @@ span {
   align-items: center;
 }
 
-/* Leistungen-Section Layout */
 .leistungen {
   align-items: center;
 }
 
-/* Leistungen Grid: 2 Spalten */
 .leistungen-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
 
-/* Responsive: Leistungen untereinander */
 @media (max-width: 700px) {
   .leistungen-grid {
     display: flex;
@@ -454,14 +417,12 @@ span {
   }
 }
 
-/* Einzelne Box im Leistungen-Grid */
 .leistungen-grid-box {
   background-color: var(--color-bg-cards);
   padding: var(--spacing);
   text-align: left;
 }
 
-/* Icon in der Leistungen-Box */
 .leistungen-icon {
   width: 16px;
   padding-bottom: 0.5rem;
@@ -472,8 +433,6 @@ span {
   flex-direction: column;
   gap: 0.5rem;
 }
-
-/* Aufzählungen/Listen in der Leistungen-Box */
 
 .leistungen-grid-text ul {
   display: flex;
@@ -521,11 +480,10 @@ span {
   text-align: center;
 }
 
-/* ==========================================================
-   BURGER ICON & MOBILE OVERLAY
-   ========================================================== */
+/* ========================================================= */
+/* ============ BURGER ICON & MOBILE OVERLAY =============== */
+/* ========================================================= */
 
-/* Desktop: Normales Menü sichtbar, Burger-Menü versteckt */
 .site-header__nav {
   display: block;
 }
@@ -544,7 +502,6 @@ span {
   display: block;
 }
 
-/* Mobile: Normales Menü ausblenden, Burger-Menü anzeigen */
 @media (max-width: 700px) {
   .site-header__nav {
     display: none;
@@ -557,7 +514,6 @@ span {
   }
 }
 
-/* Mobile Overlay für Navigation */
 .mobile-overlay {
   position: fixed;
   top: 0;
@@ -572,7 +528,6 @@ span {
   transition: all 0.3s ease;
 }
 
-/* Mobile Navigation */
 .mobile-nav ul {
   list-style: none;
   text-align: center;
@@ -588,7 +543,6 @@ span {
   text-decoration: none;
 }
 
-/* Close Button für Mobile Overlay */
 .close-button {
   all: unset;
   display: flex;
@@ -602,9 +556,9 @@ span {
   height: 24px;
 }
 
-/* ==========================================================
-   UNTERSEITEN CONTENT-BOX (z. B. Impressum)
-   ========================================================== */
+/* ======================================================== */
+/* ============== UNTERSEITEN CONTENT-BOX ================= */
+/* ======================================================== */
 
 .content-box {
   background-color: var(--color-bg-cards);
@@ -618,27 +572,15 @@ span {
   text-align: left;
 }
 
-.content-blocks a {
-  color: var(--color-text);
-  text-decoration: none;
-  font-weight: var(--font-weight-normal);
-}
-
-.content-blocks a:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-decoration-color: var(--color-accent);
-}
-
 .content-blocks-text {
   display: flex;
   flex-direction: column;
   gap: var(--gap);
 }
 
-/* ==========================================================
-   AKKOREDEON (FAQ)
-   ========================================================== */
+/* ======================================================= */
+/* ================= AKKOREDEON (FAQ) ==================== */
+/* ======================================================= */
 
 .content-blocks--faq-question {
   display: flex;
@@ -666,9 +608,9 @@ span {
   text-align: center;
 }
 
-.accordion-toggle[aria-expanded="true"] .plusminus {
-  content: "-";
-  /* Das Zeichen wird per JS geändert, siehe unten */
+.accordion-toggle[aria-expanded='true'] .plusminus {
+  content: '-';
+  /* Das Zeichen wird per JS geändert */
 }
 
 .faqsection {
@@ -677,9 +619,9 @@ span {
   gap: 1rem;
 }
 
-/* ==========================================================
-   SCROLL BACK UP - BUTTON
-   ========================================================== */
+/* ======================================================== */
+/* ============== SCROLL BACK UP - BUTTON ================= */
+/* ======================================================== */
 
 #myBtn {
   all: unset;
@@ -690,7 +632,7 @@ span {
   z-index: 99;
   background-color: var(--color-bg-cards);
   padding: 15px;
-  border-radius: 50%; /* Rund! */
+  border-radius: 50%;
 }
 
 #myBtn:hover {

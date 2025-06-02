@@ -1,7 +1,4 @@
 module.exports = {
-  // Max. Zeilenlänge – danach wird umgebrochen (gut für Lesbarkeit)
-  printWidth: 100,
-
   // Einrückung: 2 Leerzeichen
   tabWidth: 2,
 
@@ -40,8 +37,4 @@ module.exports = {
 
   // Formatierung eingebetteter Inhalte (z. B. CSS in HTML)
   embeddedLanguageFormatting: 'auto',
-
-  proseWrap: 'always', // Für bessere Lesbarkeit in langen Strings
-  tabWidth: 2,
-  useTabs: false,
 };

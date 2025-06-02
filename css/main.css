@@ -267,15 +267,13 @@ span {
 
 .site-footer__meta {
   color: var(--color-text);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .site-footer__meta--links {
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  margin: 0 auto;
 }
 
 .site-footer__link {

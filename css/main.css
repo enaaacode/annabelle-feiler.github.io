@@ -779,3 +779,82 @@ span {
 }
 
 /* ======================== BLOG SEITE =========================== */
+
+/* ======================== BLOG alt (BACKUP) =========================== */
+
+.blog-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: stretch;
+}
+
+.blog-grid a {
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .blog-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.blog-grid-box {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg-cards);
+  aspect-ratio: 4 / 3;
+  padding: var(--spacing);
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  text-align: left;
+}
+
+.blog-grid-box.noratio {
+  aspect-ratio: unset;
+  gap: 0.5rem;
+}
+
+.blog-grid-box.noratio:hover {
+  transform: unset;
+  cursor: unset;
+}
+
+More actions .blog-grid-box:hover {
+  transform: scale(1.05);
+}
+
+.blog-titel {
+  margin-top: auto;
+}
+
+.blog-label {
+  display: inline-flex;
+  align-self: flex-start;
+  margin-left: auto;
+  font-size: 0.8rem;
+  border-radius: 0.5rem;
+  padding-top: 0.35rem;
+  padding-bottom: 0.3rem;
+  padding-inline: 0.5rem;
+  white-space: nowrap;
+  color: var(--color-text-button);
+}
+
+.label-about {
+  background-color: #494bd7;
+}
+
+.label-methode {
+  background-color: #2da29d;
+}
+
+.label-projekt {
+  background-color: #c849d7;
+}
+
+.blog-button-wrapper {
+  display: flex;
+  justify-content: center;
+}

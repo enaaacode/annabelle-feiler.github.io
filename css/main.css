@@ -247,7 +247,6 @@ span {
 .site-footer {
   background-color: var(--color-bg-cards);
   text-align: center;
-  justify-content: center;
   padding: var(--spacing) 0;
   margin-top: auto; /* Footer bleibt unten */
 }
@@ -268,6 +267,9 @@ span {
 
 .site-footer__meta {
   color: var(--color-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .site-footer__meta--links {

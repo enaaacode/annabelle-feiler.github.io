@@ -6,12 +6,12 @@
 
     <meta
       name="description"
-      content="UX/UI & Visual Design Blog by Annabelle Feiler"
+      content="{{ page.description | default: site.description | default: 'UX/UI & Visual Design Blog by Annabelle Feiler' }}" />
     />
+
     <meta
       name="keywords"
-      content="UX Design, UI Design, Visual Design, Barrierefreies Webdesign, Nutzerzentriertes Design, Human-Centered Design, UX Designerin, Website Design, App Design, Screendesign, digitale Produkte, Figma Designerin, Freelance Designerin, Studio Feiler, Annabelle Feiler"
-    />
+      content="{{ page.keywords | default: site.keywords | default: 'UX Design, UI Design, Barrierefreiheit, Webdesign, Annabelle Feiler, HTML, CSS, JS' }}" />
     <meta name="author" content="Annabelle Feiler" />
 
     <title>{{ page.title }}</title>
@@ -21,8 +21,7 @@
 
     <script
       src="https://kit.fontawesome.com/81f652e334.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script src="js/script.js" defer></script>
     <script src="js/github_api.js" defer></script>
   </head>

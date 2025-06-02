@@ -1,7 +1,7 @@
 .DS_Store
 
 _site/
--drafts/
+_drafts/
 
 privat/
 _layouts/privat.html

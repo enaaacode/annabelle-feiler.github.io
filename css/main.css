@@ -62,6 +62,7 @@ body {
   font-style: normal;
   src: url('/assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf')
     format('truetype');
+  font-display: swap;
 }
 
 /* Zentrierter Hauptbereich mit max. Breite */

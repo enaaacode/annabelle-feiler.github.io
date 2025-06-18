@@ -112,8 +112,20 @@ a {
 a:hover {
   text-decoration: underline;
   text-decoration-thickness: 3px;
-  text-underline-offset: 2px;
+  text-underline-offset: 3px;
   text-decoration-color: var(--color-accent);
+}
+
+a:focus,
+a:focus .blog-grid--element,
+.button:focus,
+input:focus,
+button:focus {
+  outline: 2px dashed var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 0.25em;
+  text-decoration: none;
+  transition: outline 0.2s;
 }
 
 .code-style {

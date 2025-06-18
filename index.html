@@ -9,8 +9,7 @@ title: Annabelle Feiler – UX/UI & Visual Design
       <div class="intro-image boxradius">
         <img
           src="assets/images/bild_startseite.jpg"
-          alt="Braunes hölzernes Dock umgeben von grünem Gras nahe Berg unter weißen Wolken und blauem Himmel tagsüber. 
-          Quelle: Pexels. Verwendung gemäß Pexels-Lizenz. Danke an den Fotografen Tyler Lastovich für das schöne Bild."
+          alt="Hölzerner Dock umgeben von grünem Gras nahe Berg unter weißen Wolken und blauem Himmel tagsüber."
           loading="lazy"
         />
       </div>
@@ -63,7 +62,7 @@ title: Annabelle Feiler – UX/UI & Visual Design
     {% for item in site.data.leistungen %}
     <div class="leistungen-grid-box boxradius">
       <div class="leistungen-icon">
-        <img src="{{item.icon}}" />
+        <img src="{{item.icon}}" alt="" />
       </div>
       <div class="leistungen-grid-text">
         <h3>{{item.titel}}</h3>
@@ -116,16 +115,5 @@ title: Annabelle Feiler – UX/UI & Visual Design
       </div>
     </a>
     {% endfor %}
-  </div>
-
-  <div class="button-wrapper">
-    <a
-      class="button primary"
-      href="mailto:hello@studio-feiler.com?subject=Anfrage&body=Hi Annabelle,"
-      aria-label="Annabelle direkt per E-Mail kontaktieren"
-      title="Schreib mir eine E-Mail"
-    >
-      Schreib mir
-    </a>
   </div>
 </section>

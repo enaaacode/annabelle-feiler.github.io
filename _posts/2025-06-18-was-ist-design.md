@@ -24,7 +24,7 @@ Das klingt nun sehr sachlich und vielleicht ein bisschen arg trocken. Und ziemli
 
 Über das Italienische _disegno_ („Zeichnung“, „Entwurf“) fand der Begriff Eingang in die europäische Kunst- und Wissenschaftssprache. In der italienischen Renaissance stand _disegno_ für den konzeptionellen Entwurf, also für die Idee **vor** der eigentlichen Ausführung.
 
-Im 17. Jahrhundert übernahm dann das Englische den Begriff als _design_. Zunächst im Sinne von „Zeichnung“ oder „Plan“. Ab dem 19. Jahrhundert gewann der Begriff dann zunehmend an Bedeutung im Kontext industrieller Gestaltung. So wurde 1837 in London die „Government School of Design“ gegründet, um die Verbindung aus Kunst, Funktion und Industrie zu fördern. Heute ist besagte Institution als “ Royal College of Art” bekannt.
+Im 17. Jahrhundert übernahm dann das Englische den Begriff als _design_. Zunächst im Sinne von „Zeichnung“ oder „Plan“. Ab dem 19. Jahrhundert gewann der Begriff dann zunehmend an Bedeutung im Kontext industrieller Gestaltung. So wurde 1837 in London die „Government School of Design“ gegründet, um die Verbindung aus Kunst, Funktion und Industrie zu fördern. Heute ist besagte Institution als „Royal College of Art“ bekannt.
 
 Wenn heute von Design die Rede ist, ploppen Bilder von teuren Handtaschen oder ikonischen Stühlen vor dem inneren Auge auf. Hauptsache edel. Design = Luxus = teuer = schön. Das ist zwar logisch verständlich, aber für alle, die Design als Prozess verstehen, auch ein bisschen frustrierend.
 
@@ -35,7 +35,7 @@ Jetzt könnte man natürlich sagen: „Mensch, Annabelle, schön und gut. Aber B
 **Stimmt.**  
 Aber gerade wenn Begriffe sich wandeln, finde ich es wichtig (und furchtbar spannend noch dazu!), den Ursprung nicht aus den Augen zu verlieren. Denn der Blick in die Vergangenheit hilft uns zu verstehen, woher unser heutiges Verständnis kommt, was sich verschoben hat und manchmal auch: was dabei verloren ging.
 
-Oder, um es mit Bruno Kreisky (ehemaliger österreichischer Bundeskanzler) zu sagen: „Hören Sie ein bisschen Geschichte, dann werden Sie sehen, was sich mit der Zeit verändert hat.“
+Oder, um es mit Bruno Kreisky (ehemaliger österreichischer Bundeskanzler) zu sagen: "Lernen’S ein bissl Geschichte und dann werden Sie sehen, Herr Reporter, wie sich das damals entwickelt hat."
 Mit anderen Worten: Der Blick zurück hilft, das Heute besser einzuordnen. _(Fun Fact: Dieses Zitat wird im Intro meines Lieblings-Podcasts „Geschichten aus der Geschichte“ eingespielt. Ich hör’s also ziemlich oft. Kein Wunder, wenn sich da mit der Zeit ein gewisser Hang zum historischen Denken bei mir eingeschlichen hat.)_
 
 Wenn wir Design heute nur als „Look & Feel“ sehen, ignorieren wir seine Wurzeln als Reflexions- und Gestaltungsprozess. Dabei kann genau dieses historische Bewusstsein helfen, wieder zum Kern zurückzufinden. Also lasst uns Design als **verstehendes Gestalten** begreifen, nicht bloß als visuelle Verpackung.

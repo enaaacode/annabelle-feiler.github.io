@@ -19,7 +19,7 @@ keywords:
 
 **Ganz ehrlich:** Tabellen sind nicht gerade meine liebsten UI-Elemente. Sie erinnern mich irgendwie immer ein bisschen an Excel (und das ist kein Kompliment).
 
-Obwohl sie auf den ersten Blick einfach, _ja fast schon banal_ wirken, sind sie gestalterisch ganz schön komplex. Gerade auf kleinen Screens oder in Sachen Barrierefreiheit entpuppen sie sich schnell als Büchse der Pandora: versteckte Scrollleisten, unlesbare Inhalte, Fokusfallen … alles dabei (außer die Hoffnung auf Besserung).
+Obwohl sie auf den ersten Blick einfach, _ja fast schon banal_ wirken, sind sie gestalterisch ganz schön komplex. Gerade auf kleinen Screens oder in Sachen Barrierefreiheit entpuppen sie sich schnell als Büchse der Pandora: versteckte Scrollleisten, unlesbare Inhalte, Fokusfallen&nbsp;… alles dabei (außer die Hoffnung auf Besserung).
 
 > Was auf dem Desktop gut aussieht, wird auf dem Smartphone schnell zur Zumutung. Tabellen sind nicht gerade für ihre Flexibilität bekannt. Und horizontales Scrollen mag einfach niemand. Tabellen fühlen sich auf kleinen Bildschirmen selten gut an.
 

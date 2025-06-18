@@ -40,7 +40,7 @@ Mit anderen Worten: Der Blick zurück hilft, das Heute besser einzuordnen. _(Fun
 
 Wenn wir Design heute nur als „Look & Feel“ sehen, ignorieren wir seine Wurzeln als Reflexions- und Gestaltungsprozess. Dabei kann genau dieses historische Bewusstsein helfen, wieder zum Kern zurückzufinden. Also lasst uns Design als **verstehendes Gestalten** begreifen, nicht bloß als visuelle Verpackung.
 
-Ich fasse zusammen. Design bedeutet nicht "etwas hübsch und fancy machen". Vielmehr geht es darum Dinge verständlicher, zugänglicher und nutzbarer zu machen. Design fängt nicht bei der Wahl einer schönen Schrift oder Farbpalette an. Sondern bei Fragen wie:
+Ich fasse zusammen. Design bedeutet nicht „etwas hübsch und fancy machen“. Vielmehr geht es darum Dinge verständlicher, zugänglicher und nutzbarer zu machen. Design fängt nicht bei der Wahl einer schönen Schrift oder Farbpalette an. Sondern bei Fragen wie:
 
 - Für wen gestalten wir eigentlich?
 - Was möchten wir kommunizieren?

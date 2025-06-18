@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+ul {
+  padding-left: 1rem; /* macht Platz für die Aufzählungszeichen (wegen padding 0 bei *) */
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -30,10 +34,12 @@ body {
   --color-text-button: #ffffff;
   --color-accent: #d4145a;
   --accent-gradient: linear-gradient(90deg, #d4145a 0%, #9332ff 100%);
+  --color-text-accent: #b778ff;
 
   --font-body: 'DM Sans', sans-serif;
   --font-heading: 'DM Sans', sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  --font-mono: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo,
+    monospace;
 
   --font-size-base: 1rem;
   --font-size-sm: 0.875rem;
@@ -54,7 +60,8 @@ body {
   font-family: 'DM Sans';
   font-weight: 100 700;
   font-style: normal;
-  src: url('/assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
+  src: url('/assets/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf')
+    format('truetype');
 }
 
 /* Zentrierter Hauptbereich mit max. Breite */
@@ -127,7 +134,6 @@ a:hover {
 }
 
 .heading p {
-  width: 80%;
   text-align: center;
   margin: 0 auto;
   font-family: var(--font-mono);
@@ -146,15 +152,14 @@ span {
   text-align: center;
   display: flex;
   justify-content: center;
-  all: unset;
   cursor: pointer;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-button);
 }
 
 .button a,
 .button.primary a {
-  color: var(--color-text-button);
   text-decoration: none;
-  font-weight: var(--font-weight-bold);
 }
 
 /* Primärer Button */
@@ -169,6 +174,14 @@ span {
 
 .button.primary:hover {
   transform: scale(1.02);
+}
+
+.button-wrapper {
+  margin: 0 auto;
+}
+
+.intro-box .button-wrapper {
+  margin: 0;
 }
 
 /* ========================================================= */
@@ -582,41 +595,37 @@ span {
 /* ================= AKKOREDEON (FAQ) ==================== */
 /* ======================================================= */
 
-.content-blocks--faq-question {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.content-blocks--faq-question p {
-  font-weight: var(--font-weight-bold);
-  color: var(--color-text-button);
-}
-
-.accordion-toggle {
-  all: unset;
-  cursor: pointer;
-}
-
-.accordion-toggle .plusminus {
-  font-size: 2rem;
-  line-height: 1;
-  transition: color 0.2s;
-  display: inline-block;
-  width: 1em;
-  text-align: center;
-}
-
-.accordion-toggle[aria-expanded='true'] .plusminus {
-  content: '-';
-  /* Das Zeichen wird per JS geändert */
-}
-
-.faqsection {
+#faqsection {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+details {
+  background-color: var(--color-bg-cards);
+  padding: var(--spacing);
+  text-align: left;
+}
+
+summary {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: 0.25rem;
+}
+
+summary::after {
+  content: '\00FF0B';
+  font-size: 1.5rem;
+  color: var(--color-text-accent);
+  font-weight: bold;
+  transition: transform 150ms ease-in-out;
+}
+
+[open] summary::after {
+  transform: rotate(45deg);
 }
 
 /* ======================================================== */
@@ -653,7 +662,6 @@ span {
 /* ======================== BLOG GRID =========================== */
 /* ============================================================== */
 
-/*
 .blog-grid-container a {
   all: unset;
 }
@@ -719,91 +727,112 @@ span {
   background-color: #494bd7;
 }
 
-.methode {
-  background-color: #2da29d;
+.design {
+  background-color: #934afa;
+}
+
+.know-how {
+  background-color: #d3008d;
 }
 
 .projekt {
   background-color: #c849d7;
-} */
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
 
 /* ======================== BLOG SEITE =========================== */
 
-/* ======================== BLOG alt (BACKUP) =========================== */
-
-.blog-grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: stretch;
-}
-
-.blog-grid a {
+.back-link {
+  display: inline-block;
   text-decoration: none;
+  margin-right: auto;
+  font-size: var(siz);
 }
 
-@media (max-width: 700px) {
-  .blog-grid {
-    display: flex;
-    flex-direction: column;
-  }
+.blog-content p,
+.blog-content {
+  text-align: left;
+  font-family: var(--font-mono);
+  font-size: var(--font-size-sm);
+  color: rgb(237, 237, 237);
+  line-height: 1.5;
 }
 
-.blog-grid-box {
+.blog-content strong {
+  /* Das ist in Markdown eigentlich kursiv */
+  font-family: var(--font-mono);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  font-style: normal;
+  text-align: center;
+}
+
+.blog-content ul li::marker,
+.blog-content strong {
+  color: var(--color-text-accent);
+}
+
+.contentsite img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blog-content figcaption {
+  font-size: 0.75rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img-with-figcaption {
   display: flex;
   flex-direction: column;
-  background-color: var(--color-bg-cards);
-  aspect-ratio: 4 / 3;
-  padding: var(--spacing);
-  cursor: pointer;
-  transition: transform 0.5s ease;
-  text-align: left;
-}
-
-.blog-grid-box.noratio {
-  aspect-ratio: unset;
   gap: 0.5rem;
 }
 
-.blog-grid-box.noratio:hover {
-  transform: unset;
-  cursor: unset;
+blockquote {
+  background-color: var(--color-bg-cards);
+  padding: var(--spacing);
+  border-radius: 1rem;
 }
 
-More actions .blog-grid-box:hover {
-  transform: scale(1.05);
+.blog-content blockquote p {
+  font-family: var(--font-body);
+  text-align: left;
+  font-size: var(--font-size-base);
 }
 
-.blog-titel {
-  margin-top: auto;
-}
-
-.blog-label {
-  display: inline-flex;
-  align-self: flex-start;
-  margin-left: auto;
-  font-size: 0.8rem;
-  border-radius: 0.5rem;
-  padding-top: 0.35rem;
-  padding-bottom: 0.3rem;
-  padding-inline: 0.5rem;
-  white-space: nowrap;
-  color: var(--color-text-button);
-}
-
-.label-about {
-  background-color: #494bd7;
-}
-
-.label-methode {
-  background-color: #2da29d;
-}
-
-.label-projekt {
-  background-color: #c849d7;
-}
-
-.blog-button-wrapper {
+.externer-link {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.externer-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.icon-extlink svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+
+/* ======================== SONSTIGES ELEMENTE =========================== */
+
+.runder-bildrahmen {
+  border-radius: 50%;
+  width: 100px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 }

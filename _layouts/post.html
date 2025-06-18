@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+  {% include head.html %}
+  <body>
+    <header>{% include header.html %}</header>
+
+    <main>
+      <div class="contentsite">
+        <div class="heading">
+          <a href="/blog" class="back-link">← zurück zur Übersicht</a>
+
+          <h1>{{ page.title }}</h1>
+          {% if page.description %}
+          <p>{{ page.description }}</p>
+          {% endif %}
+        </div>
+
+        <div class="blog-content">{{ content }}</div>
+      </div>
+
+      <div class="button-wrapper">
+        <a
+          class="button primary"
+          href="mailto:hello@annabelle-feiler.com?subject=Anfrage&body=Hi Annabelle,"
+          aria-label="Annabelle direkt per E-Mail kontaktieren"
+          title="Schreib mir eine E-Mail"
+        >
+          Schreib mir
+        </a>
+      </div>
+    </main>
+
+    <footer>{% include footer.html %}</footer>
+  </body>
+</html>

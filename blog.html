@@ -1,0 +1,48 @@
+---
+layout: default
+title: Blog
+description: Hier schreibe ich über Design, Code und den ganz normalen Nerdwahnsinn.
+keywords: UX Blog, UI Blog, HTML, CSS, JavaScript, Barrierefreies Webdesign, Designsysteme, Frontend, Freelance Design, Annabelle Feiler
+---
+
+<!-- TODO Ansicht umschalten: von Grid zu Liste -->
+
+<div class="contentsite">
+  <div class="heading">
+    <h1>Mein Blog</h1>
+    <p>
+      UX, HTML, CSS, JS... und andere Abkürzungen.
+      <br />
+      Hier teile ich, was ich baue, teste, verwerfe oder feiere.
+    </p>
+  </div>
+
+  <div class="blog-grid-container">
+    {% for post in site.posts limit:3 %}
+    <a href="{{ post.url }}">
+      <div class="blog-grid--element">
+        <div class="blog-grid--element-image boxradius">
+          <img src="{{ post.image }}" alt="" />
+        </div>
+
+        <div class="blog-grid--element-label label {{ post.category }}">
+          {{ post.category }}
+        </div>
+        <div class="blog-grid--element-titel"><h3>{{ post.title }}</h3></div>
+        <div class="blog-grid--element-description">{{ post.description }}</div>
+        <div>
+          <div class="blog-grid--element-datum code-style">
+            <small>
+              {{ post.date | date: "%d.%m.%Y" }} ✷ {% assign words =
+              post.content | number_of_words %} {% assign minutes = words |
+              divided_by:150 %} {% if minutes < 1 %} Lesedauer: 1 Min {% else %}
+              Lesedauer: {{ minutes }} Min {% endif %}
+            </small>
+          </div>
+          <div class="blog-grid--element-lesezeit code-style"></div>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>

@@ -1,46 +1,27 @@
-const burgerIcon = document.getElementById("burger-icon");
-const closeIcon = document.getElementById("close-button");
-const mobileOverlay = document.getElementById("mobile-overlay");
+const burgerIcon = document.getElementById('burger-icon');
+const closeIcon = document.getElementById('close-button');
+const mobileOverlay = document.getElementById('mobile-overlay');
 
 // Menü öffnen
-burgerIcon.addEventListener("click", function () {
-  mobileOverlay.style.display = "flex";
-  burgerIcon.style.display = "none";
+burgerIcon.addEventListener('click', function () {
+  mobileOverlay.style.display = 'flex';
+  burgerIcon.style.display = 'none';
 });
 
 // Menü schließen
-closeIcon.addEventListener("click", function () {
-  mobileOverlay.style.display = "none";
-  burgerIcon.style.display = "flex";
+closeIcon.addEventListener('click', function () {
+  mobileOverlay.style.display = 'none';
+  burgerIcon.style.display = 'flex';
 });
 
 // Alle Links im Overlay holen
-const overlayLinks = mobileOverlay.querySelectorAll("a");
+const overlayLinks = mobileOverlay.querySelectorAll('a');
 
 // Wenn ein Link im Overlay angeklickt wird → Menü schließen
 overlayLinks.forEach(function (link) {
-  link.addEventListener("click", function () {
-    mobileOverlay.style.display = "none";
-    burgerIcon.style.display = "flex";
-  });
-});
-
-// ===========================================================
-// ======================= AKKORDEON =========================
-// ===========================================================
-
-// Akkordeon-Logik
-document.querySelectorAll(".accordion-toggle").forEach((btn) => {
-  btn.addEventListener("click", function () {
-    // Das nächste Element nach dem Parent ist der Akkordeon-Inhalt
-    const parent = this.closest(".content-blocks--faq-question");
-    const content = parent.nextElementSibling;
-    const expanded = this.getAttribute("aria-expanded") === "true";
-    this.setAttribute("aria-expanded", !expanded);
-    content.hidden = expanded;
-    // Plus/Minus-Zeichen wechseln
-    const icon = this.querySelector(".plusminus");
-    if (icon) icon.textContent = expanded ? "+" : "-";
+  link.addEventListener('click', function () {
+    mobileOverlay.style.display = 'none';
+    burgerIcon.style.display = 'flex';
   });
 });
 
@@ -49,7 +30,7 @@ document.querySelectorAll(".accordion-toggle").forEach((btn) => {
 // ===========================================================
 
 // Get the button
-let mybutton = document.getElementById("myBtn");
+let mybutton = document.getElementById('myBtn');
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
@@ -58,9 +39,9 @@ window.onscroll = function () {
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+    mybutton.style.display = 'block';
   } else {
-    mybutton.style.display = "none";
+    mybutton.style.display = 'none';
   }
 }
 

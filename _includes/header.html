@@ -13,7 +13,12 @@
       <ul class="site-header__list">
         {% for item in site.data.navigation %}
         <li class="site-header__item">
-          <a href="{{item.link}}" class="site-header__link">{{item.title}}</a>
+          <a
+            href="{{item.link}}"
+            class="site-header__link{% if page.url == item.link %} active{% endif %}"
+          >
+            {{item.title}}
+          </a>
         </li>
         {% endfor %}
       </ul>

@@ -5,4 +5,5 @@ description: Kontaktmöglichkeit von Annabelle Feiler
 keywords:
 ---
 
-Wenn du Fragen hast oder mich kontaktieren möchtest, erreichst du mich per E-Mail: [hello@studio-feiler.com](mailto:hello@studio-feiler.com)
+Ich freue mich über deine Nachricht – ob Feedback, Projektanfrage oder einfach nur ein netter Gruß.  
+Schreib mir gerne an: [hello@studio-feiler.com](mailto:hello@studio-feiler.com)

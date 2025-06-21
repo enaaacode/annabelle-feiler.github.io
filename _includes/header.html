@@ -11,40 +11,11 @@
 
     <nav class="site-header__nav">
       <ul class="site-header__list">
+        {% for item in site.data.navigation %}
         <li class="site-header__item">
-          <a
-            href="/index.html"
-            class="site-header__link{% if page.url == '/' or page.url == '/index.html' %} active{% endif %}"
-          >
-            Start
-          </a>
+          <a href="{{item.link}}" class="site-header__link">{{item.title}}</a>
         </li>
-        <li class="site-header__item">
-          <a href="/index.html#leistungen" class="site-header__link">
-            Leistungen
-          </a>
-        </li>
-        <li class="site-header__item">
-          <a
-            href="/about.html"
-            class="site-header__link{% if page.url == '/about.html' %} active{% endif %}"
-          >
-            Über mich
-          </a>
-        </li>
-        <li class="site-header__item">
-          <a href="/blog.html" class="site-header__link">Blog</a>
-        </li>
-        <li class="site-header__item">
-          <a
-            title="Schreib mir eine E-Mail"
-            href="mailto:hello@studio-feiler.com?subject=Anfrage&body=Hi Annabelle,"
-            class="site-header__link"
-            target="_blank"
-          >
-            Kontakt
-          </a>
-        </li>
+        {% endfor %}
       </ul>
     </nav>
 
@@ -60,21 +31,14 @@
       <div class="close-button" id="close-button">
         <img src="/assets/icons/xmark.svg" alt="Schließen" />
       </div>
+
       <nav class="mobile-nav">
         <ul>
-          <li><a href="/index.html">Start</a></li>
-          <li><a href="/index.html#leistungen">Leistungen</a></li>
-          <li><a href="/about.html">Über mich</a></li>
-          <a href="/blog.html" class="site-header__link">Blog</a>
-          <li>
-            <a
-              href="mailto:hello@studio-feiler.com?subject=Anfrage&body=Hi Annabelle,"
-            >
-              Kontakt
-            </a>
+          {% for item in site.data.navigation %}
+          <li class="site-header__item">
+            <a href="{{item.link}}">{{item.title}}</a>
           </li>
-          <li><a href="/impressum.html">Impressum</a></li>
-          <li><a href="/datenschutz.html">Datenschutz</a></li>
+          {% endfor %}
         </ul>
       </nav>
     </div>

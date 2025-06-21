@@ -1,0 +1,14 @@
+- title: 'Start'
+  link: '/index.html'
+
+- title: 'Leistungen'
+  link: '/index.html#leistungen'
+
+- title: 'Über mich'
+  link: '/about.html'
+
+- title: 'Blog'
+  link: '/blog.html'
+
+- title: 'Kontakt'
+  link: '/kontakt.html'

@@ -589,19 +589,10 @@ span {
 .content-box {
   background-color: var(--color-bg-cards);
   padding: var(--spacing);
-}
-
-.content-blocks {
   display: flex;
   flex-direction: column;
   gap: var(--gap);
   text-align: left;
-}
-
-.content-blocks-text {
-  display: flex;
-  flex-direction: column;
-  gap: var(--gap);
 }
 
 /* ======================================================= */

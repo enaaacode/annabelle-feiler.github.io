@@ -35,7 +35,7 @@ Webinhalte sollen für alle Menschen gleichermaßen nutzbar sein. Das schließt 
 
 Die Welt wird so gestaltet, dass die Bedürfnisse der Mehrheit der Menschen erfüllt werden. Und diese Mehrheit ist halt nicht behindert. Es ist schön, dass sich das Blatt langsam aber sicher wendet. Digitale Barrierefreiheit ist in aller Munde (zumindest kommt es mir in meiner Bubble so vor). Du hast noch nichts davon gehört? Umso schöner, dass du dir die Zeit nimmst gerade etwas darüber zu erfahren. Das ist der erste Schritt!
 
-Die Web Content Accessibility Guidelines (WCAG) 2.2 bieten einen hervorragenden Anhaltspunkt, um digitale Inhalte barrierefreier zu gestalten. Um sicherzustellen, dass eine Website barrierefrei ist, müssen bestimmte Prüfschritte erfüllt sein. Diese unterteilen sich in vier Prinzipien:
+Die Web Content Accessibility Guidelines (WCAG 2.2) bieten einen hervorragenden Anhaltspunkt, um digitale Inhalte barrierefreier zu gestalten. Um sicherzustellen, dass eine Website barrierefrei ist, müssen bestimmte Prüfschritte erfüllt sein. Diese unterteilen sich in vier Prinzipien:
 
 - **Wahrnehmbarkeit:** Informationen müssen für alle Nutzenden zugänglich sein. Auch für Menschen mit visuellen oder auditiven Einschränkungen. Dies bedeutet zum Beispiel, dass Bilder mit Alternativtext versehen werden sollten oder dass Videos Untertitel haben.
 - **Bedienbarkeit:** Nutzende müssen mit den Inhalten interagieren können, ohne auf Barrieren zu stoßen. Hierbei geht es um Aspekte wie Tastaturnavigation.

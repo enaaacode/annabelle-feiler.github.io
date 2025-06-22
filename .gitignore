@@ -2,15 +2,14 @@
 assets/images/.DS_Store
 **/.DS_Store
 
-
-
 _site/
 _drafts/
 
 privat/
 _layouts/privat.html
+assets/css/privat.css
 
-js/github_api.js
-css/github_api.css
+assets/js/github_api.js
+assets/css/github_api.css
 github-projekte.html
 

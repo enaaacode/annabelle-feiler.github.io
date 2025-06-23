@@ -846,3 +846,11 @@ blockquote {
   display: flex;
   align-items: center;
 }
+
+.mailingliste-container {
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing);
+  gap: 1rem;
+  background-color: var(--color-bg-cards);
+}

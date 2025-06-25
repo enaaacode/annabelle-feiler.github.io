@@ -8,10 +8,6 @@ tags:
   - designphilosophie
 image: 'assets/images/blog/2025-06-18-was-ist-design_cover.png'
 description: 'Warum gutes Design mehr ist als hübsch.'
-keywords:
-  - Design
-  - Designgeschichte
-  - Designphilosophie
 ---
 
 Was meine ich eigentlich, wenn ich von "(UX) Design" spreche? Im wissenschaftlichen Kontext ist es gemeinhin üblich, zunächst einmal ein gemeinsames Bergriffsverständnis zu schaffen. Und genau so machen wir's jetzt auch, ok? Denn, wenn wir über etwas reden, sollten wir sicherstellen, dass wir alle vom Gleichen sprechen. (Das ist ein Hack der auch im Alltag suuuper funktioniert). Es folgt _mein_ Begriffsverständnis. Das sieht bei anderen Menschen die Design machen vielleicht ganz anders aus.

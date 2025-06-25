@@ -9,10 +9,6 @@ tags:
   - a11y
 image: 'assets/images/blog/2025-06-18-barrierefreiheit_cover.png'
 description: 'Nicht nur Menschen mit einer Behinderung finden das gut.'
-keywords:
-  - Design
-  - Designgeschichte
-  - Designphilosophie
 ---
 
 Ganz vereinfacht gesagt heißt digitale Barrierefreiheit: Die Website ist so gestaltet, dass möglichst viele Menschen sie problemlos nutzen können.

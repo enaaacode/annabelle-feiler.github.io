@@ -9,12 +9,6 @@ tags:
   - Star Wars
 image: 'assets/images/blog/2025-06-18-excel-says-hi_cover.png'
 description: 'Tabellen sind schon praktisch, aber sind sie auch ohne Frust nutzbar?'
-keywords:
-  - UX Design
-  - UI Design
-  - Tabellen
-  - Menschzentrierte Gestaltung
-  - Star Wars Theme
 ---
 
 **Ganz ehrlich:** Tabellen sind nicht gerade meine liebsten UI-Elemente. Sie erinnern mich irgendwie immer ein bisschen an Excel (und das ist kein Kompliment).

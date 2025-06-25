@@ -470,6 +470,7 @@ span {
 
 .leistungen-icon {
   width: 16px;
+  height: auto;
   padding-bottom: 0.5rem;
 }
 

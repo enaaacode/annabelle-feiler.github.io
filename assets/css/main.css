@@ -206,6 +206,10 @@ span {
   padding: var(--spacing) 0;
 }
 
+.site-header__logo {
+  height: auto;
+}
+
 .site-header__inner {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -240,6 +244,15 @@ span {
 .site-header__link.active {
   color: var(--color-text-button);
   font-weight: var(--font-weight-bold);
+}
+
+.burger-menue button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  cursor: pointer;
 }
 
 /* ========================================================= */

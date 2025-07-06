@@ -2,7 +2,7 @@
   link: '/index.html'
 
 - title: 'Leistungen'
-  link: '/index.html#leistungen'
+  link: '/leistungen.html'
 
 - title: 'Über mich'
   link: '/about.html'

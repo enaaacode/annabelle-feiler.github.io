@@ -1,6 +1,6 @@
-url: 'https://studio-feiler.com' # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: '' # the subpath of your site, e.g. /blog
-title: 'studio feiler – Nachhaltiges und barrierefreies Webdesign' # the name of your site, e.g. ACME Corp.
+url: 'https://studio-feiler.com'
+baseurl: ''
+title: 'studio feiler ✷ Nachhaltige und barrierefreie Gestaltung'
 
 author:
   name: 'Annabelle Feiler'

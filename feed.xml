@@ -35,7 +35,8 @@ permalink: /feed.xml
           {% if post.image %}
             <p><img src="{{ site.url }}/{{ post.image }}" alt="Coverbild zu {{ post.title }}" /></p>
           {% endif %}
-          {{ post.excerpt | markdownify }}
+          {{ post.content | markdownify }}
+
         ]]>
       </content>
     </entry>

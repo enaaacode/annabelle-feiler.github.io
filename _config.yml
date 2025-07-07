@@ -2,6 +2,9 @@ url: 'https://studio-feiler.com' # the base hostname & protocol for your site, e
 baseurl: '' # the subpath of your site, e.g. /blog
 title: 'studio feiler – Nachhaltiges und barrierefreies Webdesign' # the name of your site, e.g. ACME Corp.
 
+author:
+  name: 'Annabelle Feiler'
+
 highlighter: rouge # code highlighter for markdown
 
 plugins:

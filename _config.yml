@@ -1,6 +1,8 @@
 url: 'https://studio-feiler.com' # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: '' # the subpath of your site, e.g. /blog
-title: 'Annabelle Feiler – Nachhaltiges Webdesign & Entwicklung' # the name of your site, e.g. ACME Corp.
+title: 'Annabelle Feiler – Nachhaltiges und barrierefreies Webdesign' # the name of your site, e.g. ACME Corp.
 
 highlighter: rouge # code highlighter for markdown
 
+plugins:
+  - jekyll-feed

@@ -19,6 +19,13 @@
 
 <link rel="canonical" href="{{ page.url | absolute_url }}" />
 
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  title="RSS-Feed"
+  href="{{ '/feed.xml' | relative_url }}"
+/>
+
 <!-- Strukturierte Daten (JSON-LD) -->
 {% if page.layout == "post" %}
 <script type="application/ld+json">

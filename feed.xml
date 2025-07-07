@@ -3,42 +3,37 @@ layout: none
 permalink: /feed.xml
 ---
 
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-  <title>{{ site.title | xml_escape }}</title>
-  <link href="{{ site.url }}/feed.xml" rel="self"/>
-  <link href="{{ site.url }}"/>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url }}/</id>
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <link>{{ site.url }}</link>
+    <description>{{ site.description | xml_escape }}</description>
+    <language>de-DE</language>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll</generator>
 
-  {% for post in site.posts %}
-    <entry>
+    {% for post in site.posts %}
+    <item>
       <title>{{ post.title | xml_escape }}</title>
-      <link href="{{ site.url }}{{ post.url }}" />
-      <id>{{ site.url }}{{ post.url }}</id>
-      <updated>{{ post.date | date_to_xmlschema }}</updated>
+      <link>{{ site.url }}{{ post.url }}</link>
+      <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 
-      <author>
-        <name>{{ post.author | default: site.author.name | xml_escape }}</name>
-      </author>
+      <author>Annabelle Feiler</author>
 
-      <summary>
-        {{ post.description | default: post.excerpt | strip_html | truncate: 160 | xml_escape }}
-      </summary>
+      <description><![CDATA[
+        {% if post.image %}
+          <p><img src="{{ site.url }}/{{ post.image }}" alt="Coverbild zu {{ post.title }}" /></p>
+        {% endif %}
+        {{ post.content | markdownify }}
+      ]]></description>
 
       {% if post.image %}
-        <media:thumbnail url="{{ site.url }}/{{ post.image }}" />
+      <media:thumbnail url="{{ site.url }}/{{ post.image }}" />
       {% endif %}
+    </item>
+    {% endfor %}
 
-      <content type="html">
-        <![CDATA[
-          {% if post.image %}
-            <p><img src="{{ site.url }}/{{ post.image }}" alt="Coverbild zu {{ post.title }}" /></p>
-          {% endif %}
-          {{ post.content | markdownify }}
-
-        ]]>
-      </content>
-    </entry>
-  {% endfor %}
-</feed>
+  </channel>
+</rss>

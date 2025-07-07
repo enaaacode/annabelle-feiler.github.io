@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Excel lässt grüßen'
-date: 2025-06-18
+date: 2025-06-19
 category: design
 tags:
   - UX Design

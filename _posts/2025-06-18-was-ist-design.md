@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Was ist Design?'
-date: 2025-06-18
+date: 2025-06-20
 category: know-how
 tags:
   - ux

@@ -7,5 +7,3 @@ author:
 
 highlighter: rouge # code highlighter for markdown
 
-plugins:
-  - jekyll-feed

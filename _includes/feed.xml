@@ -1,6 +1,8 @@
 ---
 layout: null
+permalink: /feed.xml
 ---
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ site.title | xml_escape }}</title>
@@ -8,10 +10,6 @@ layout: null
   <link href="{{ site.url }}"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ site.url }}/</id>
-    <author>
-    <name>{{ post.author | default: site.author.name }}</name>
-    </author>
-
 
   {% for post in site.posts %}
     <entry>
@@ -19,6 +17,12 @@ layout: null
       <link href="{{ site.url }}{{ post.url }}" />
       <id>{{ site.url }}{{ post.url }}</id>
       <updated>{{ post.date | date_to_xmlschema }}</updated>
+
+      {% if post.author or site.author.name %}
+      <author>
+        <name>{{ post.author | default: site.author.name }}</name>
+      </author>
+      {% endif %}
 
       <summary>{{ post.description | xml_escape }}</summary>
 

@@ -1,0 +1,20 @@
+- title: 'CSS'
+  logo: 'assets/icons/TechStack_icons/css.svg'
+
+- title: 'HTML'
+  logo: 'assets/icons/TechStack_icons/html5.svg'
+
+- title: 'JavaScript'
+  logo: 'assets/icons/TechStack_icons/javascript.svg'
+
+- title: 'Jekyll'
+  logo: 'assets/icons/TechStack_icons/jekyll.svg'
+
+- title: 'Python'
+  logo: 'assets/icons/TechStack_icons/python.svg'
+
+- title: 'Github'
+  logo: 'assets/icons/TechStack_icons/github.svg'
+
+- title: 'figma'
+  logo: 'assets/icons/TechStack_icons/figma.svg'

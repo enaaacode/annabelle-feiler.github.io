@@ -38,36 +38,32 @@ description: Strukturverliebt, code-affin und überzeugte Verfechterin menschzen
       mit Haltung handeln. Für Organisationen, die Verantwortung übernehmen. Für
       Inhalte, die gesehen und verstanden werden sollen. Dabei geht es mir nicht
       um glänzende Oberflächen, sondern um digitale Erlebnisse die barrierefrei,
-      ressourcenschonend und menschzentriert sind. Oder kurz gesagt: Ich möchte,
-      dass das Internet ein freundlicherer Ort wird.
+      ressourcenschonend und menschzentriert sind.
+    </p>
+    <p>
+      <span>Oder kurz gesagt:</span>
+      Ich möchte, dass das Internet ein freundlicherer Ort wird.
     </p>
   </div>
 
-  <div class="leistungen-grid">
-    <div class="leistungen-grid-box boxradius">
-      <div class="leistungen-grid-text">
-        <p>Ich liebe Pizza 🍕</p>
-      </div>
+  <!-- ====================================================== -->
+  <!-- ===================== Tech Stack ===================== -->
+  <!-- ====================================================== -->
+
+  <section id="techstack">
+    <div class="heading">
+      <h2>Meine Tools</h2>
     </div>
 
-    <div class="leistungen-grid-box boxradius">
-      <div class="leistungen-grid-text">
-        <p>Ich kann jonglieren ✨</p>
+    <div class="techstack-grid">
+      {% for item in site.data.techstack %}
+      <div class="techstack-grid-box">
+        <img src="{{item.logo}}" alt="{{item.title}}" title="{{item.title}}" />
       </div>
+      {% endfor %}
     </div>
+  </section>
 
-    <div class="leistungen-grid-box boxradius">
-      <div class="leistungen-grid-text">
-        <p>Ich bin Morgenmensch ☕️</p>
-      </div>
-    </div>
-
-    <div class="leistungen-grid-box boxradius">
-      <div class="leistungen-grid-text">
-        <p>Ich kann nicht Schnipsen 🖖</p>
-      </div>
-    </div>
-  </div>
   <!-- ========================================================= -->
   <!-- ===================== FAQ AKKORDEON ===================== -->
   <!-- ========================================================= -->

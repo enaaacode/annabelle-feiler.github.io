@@ -39,6 +39,6 @@ Die Web Content Accessibility Guidelines (WCAG 2.2) bieten einen hervorragenden 
 - **Robustheit:** Die Inhalte sollten so gestaltet werden, dass sie auch mit neuen Technologien kompatibel sind, wie etwa Bildschirmlesegeräten oder assistiven Technologien.
 
 Die Prüfschritte sind detailliert auf der offiziellen Website des BIK BITV-Tests beschrieben:
-<a href="https://bitvtest.de/pruefverfahren/wcag-22-web" target="_blank" rel="noopener"> www.bitvtest.de/pruefverfahren/wcag-22-web<a/>
+<a href="https://bitvtest.de/pruefverfahren/wcag-22-web" target="_blank" rel="noopener">www.bitvtest.de/pruefverfahren/wcag-22-web<a/>
 
 > Wenn wir uns als Designer und Entwicklerinnen der Bedürfnisse aller Nutzenden annehmen, verbessern wir nicht nur die Zugänglichkeit für Menschen mit Behinderungen, sondern schaffen auch ein besseres Erlebnis für alle. Und das macht das Internet zu einem besseren Ort: für alle.

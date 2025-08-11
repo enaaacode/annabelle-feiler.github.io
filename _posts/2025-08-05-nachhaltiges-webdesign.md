@@ -74,7 +74,7 @@ Online Tools zum komprimieren:
 
 Ein heißer Tipp 🔥
 Wer gern mit dem Terminal arbeitet, kommt mit ImageMagick super schnell ans Ziel.
-https://imagemagick.org/
+<a href="https://imagemagick.org/" target="_blank" rel="noopener">www.imagemagick.org<a/>
 
 #### Empfohlene Dateigrößen im Überblick
 

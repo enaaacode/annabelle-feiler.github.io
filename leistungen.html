@@ -7,26 +7,7 @@ description: Strukturverliebt, code-affin und überzeugte Verfechterin menschzen
 <div class="contentsite">
   <div class="heading">
     <h1>Leistungen</h1>
-  </div>
-
-  <section class="leistungen">
-    <div class="leistungen-grid">
-      {% for item in site.data.leistungen %}
-      <div class="leistungen-grid-box boxradius">
-        <div class="leistungen-icon">
-          <img src="{{item.icon}}" alt="" width="16px" height="16px" />
-        </div>
-        <div class="leistungen-grid-text">
-          <h3>{{item.titel}}</h3>
-          <p>{{item.beschreibung}}</p>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-
-  <div class="heading">
-    <h2>Meine Schwerpunkte</h2>
+    <p>Meine Schwerpunkte</p>
   </div>
 
   <div class="content-box boxradius">
@@ -76,6 +57,26 @@ description: Strukturverliebt, code-affin und überzeugte Verfechterin menschzen
       Struktur, typografischem Feingefühl und Liebe fürs Detail.
     </p>
   </div>
+
+  <div class="heading">
+    <h2>Meine Herangehensweise</h2>
+  </div>
+
+  <section class="leistungen">
+    <div class="leistungen-grid">
+      {% for item in site.data.leistungen %}
+      <div class="leistungen-grid-box boxradius">
+        <div class="leistungen-icon">
+          <img src="{{item.icon}}" alt="" width="16px" height="16px" />
+        </div>
+        <div class="leistungen-grid-text">
+          <h3>{{item.titel}}</h3>
+          <p>{{item.beschreibung}}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
 
   <div class="button-wrapper">
     <a

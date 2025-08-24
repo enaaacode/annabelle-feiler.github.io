@@ -13,4 +13,3 @@ Ob Feedback, Projektanfrage oder einfach nur ein netter Gruß. Feel free.
 
 **E-Mail:** [hello@studio-feiler.com](mailto:hello@studio-feiler.com)
 
-**LinkedIn:** [www.linkedin.com/in/annabelle-feiler](https://www.linkedin.com/in/annabelle-feiler/)

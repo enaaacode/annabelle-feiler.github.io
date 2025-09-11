@@ -39,7 +39,7 @@ Ich schließe nun aus Gründen der Vereinfachung von mir auf dich: ich fühle mi
 Meine ersten Berührungspunkte mit Barrierefreiheit im digitalen Kontext hatte ich als Designerin, also starte ich meine a11y Basics mit den Punkten, die in der Gestaltung zum Tragen kommen. 
 
 A: Was kommt dir hier als erstes in den Sinn?  
-B: Farben, Kontraste, Typografie und Text!  
+B: Farben? Kontraste? Und Typografie!  
 A: Genau!
 
 Gute Gestaltung muss sichtbar sein, also tatsächlich gesehen und erkannt werden können. Das klingt logisch, oder? Es ist schon viel gewonnen wenn wir uns beim Gestalten immer wieder daran erinnern, dass es Menschen gibt mit:
@@ -69,7 +69,7 @@ UI-Elemente (Formulare, Buttons, Icons, Grafiken, Fokus-Rahmen usw.) müssen sic
 _Bekanntlich geht Probieren ja über Studieren._ Wenn du jetzt also ganz fix ein Gefühl für gute Kontraste bekommen möchtest, kannst du zum Beispiel hiermit ein bisschen spielen: 
 <a href="https://www.colora11y.com/" target="_blank" rel="noopener">Color A11Y<a/>
 
-## Typografie und Text
+## Typografie
 
 ![Beispiel zu einem gut und einem schlecht lesbaren Text aufgrund der Schriftgröße](/assets/images/blog/a11y-basics/a11y_beispiel_2.png)
 

@@ -11,7 +11,7 @@ Keine Cookies, kein Tracking, kein Schnüffeln. Versprochen. Ich bin Kreativkopf
 
 Diese Website dient ausschließlich dazu, meine Projekte und Ideen zu zeigen und meine Gedanken zu teilen. Ich erhebe oder speichere keine personenbezogenen Daten und verzichte bewusst auf Tracking-Tools, Cookies, Formulare und eingebettete Inhalte von Drittanbietern.
 
-Eine kleine Ausnahme gibt es: Zur reinen Besucherstatistik nutze ich GoatCounter. Das ist ein datenschutzfreundliches Analysetool. Dabei werden keine Cookies gesetzt und keine personenbezogenen Profile erstellt. Es geht mir nur darum zu sehen, wie viele Menschen meine Seite besuchen.
+Eine kleine Ausnahme gibt es: Zur reinen Besuchsstatistik nutze ich GoatCounter. Das ist ein datenschutzfreundliches Analysetool. Dabei werden keine Cookies gesetzt und keine personenbezogenen Profile erstellt. Es geht mir nur darum zu sehen, wie viele Menschen meine Seite besuchen.
 
 Wenn du dich freiwillig für die Mailingliste einträgst, wird deine E-Mail-Adresse ausschließlich dafür verwendet, um dich über neue Blogbeiträge zu informieren. Deine Daten werden nicht weitergegeben, nicht analysiert und können jederzeit auf Wunsch gelöscht werden.
 
@@ -19,4 +19,4 @@ Die Website wird über GitHub Pages gehostet. Beim Aufruf der Seite kann GitHub 
 
 Wenn du Fragen hast oder mich kontaktieren möchtest, erreichst du mich per E-Mail: [hello@studio-feiler.com](mailto:hello@studio-feiler.com)
 
-<small>Letzte Aktualisierung: Juni 2025</small>
+<small>Letzte Aktualisierung: September 2025</small>

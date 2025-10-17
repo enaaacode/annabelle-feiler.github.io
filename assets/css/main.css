@@ -998,6 +998,7 @@ blockquote {
   margin-top: auto;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
   .projekte {
     grid-template-columns: 1fr;

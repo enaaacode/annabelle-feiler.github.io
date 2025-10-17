@@ -924,7 +924,7 @@ blockquote {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  border-radius: var(--radius, 1rem);
+  border-radius: 1rem;
   background-color: var(--color-bg-cards);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -944,8 +944,8 @@ blockquote {
   height: 100%;
   object-fit: cover;
   display: block;
-  border-top-left-radius: var(--radius, 1rem);
-  border-top-right-radius: var(--radius, 1rem);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   transition: transform 0.4s ease;
 }
 

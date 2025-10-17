@@ -1,35 +1,32 @@
-- image: assets/images/referenzen/referenz_af_muettergenesung_borschure.jpg
-  alt: 'Broschüren für die Einrichtungen des Müttergenesungswerk gGmbH'
+- kundin: 'Ev. Müttergenesung Württemberg gGmbH'
+  titel: 'Website Relaunch'
+  beschreibung: 'Mit Fokus auf digitale Barrierefreiheit habe ich die
+    Website neu gedacht, das Design modernisiert und die Seite für mobile Geräte optimiert. Von der Idee, über die Gestaltung bis zur finalen technischen Umsetzung: alles aus meiner Hand
+    und mit viel Herz. Gerade arbeite ich an der Anbindung des Formulars an
+    die Kliniksoftware, sodass die Kuranmeldungen künftigt direkt dort
+    hineinfließen.'
+  link: 'https://muettergenesung-kur.de/'
+  linktext: 'Website ansehen'
+  tools: 'HTML, CSS, JavaScript, Jekyll, GitHub Pages'
+  bild: 'assets/images/referenzen/referenz_af_muettergenesung_web.png'
 
-- image: assets/images/referenzen/referenz_af_helbling.jpg
-  alt: 'Website Redesign für helbling'
+- kundin: 'Ev. Müttergenesung Württemberg gGmbH'
+  titel: 'Imagebroschüren'
+  beschreibung: 'Für die Einrichtungen in Bad Wurzach, Loßburg und Scheidegg habe ich neue Imagebroschüren gestaltet. Das Ergebnis ist ein visueller Dreiklang, der die Verbundenheit der Kliniken auf einen Blick spürbar macht. Dafür habe ich die bestehenden Inhalte überarbeitet und in eine neue Form gegossen. So entstand ein moderner Look mit großzügigem Weißraum und einer ruhigen, klaren Gestaltung.'
+  tools: 'Affinity Publisher, Affinity Designer'
+  bild: 'assets/images/referenzen/referenz_af_muettergenesung_borschure.jpg'
 
-- image: assets/images/referenzen/referenz_af_heidenheim.jpg
-  alt: "Plakat und weitere Werbemittel für die Kampagne 'Heidenheim erleben'"
+- kundin: 'Stadt Heidenheim'
+  titel: 'Heidenheim erleben'
+  beschreibung:
+    'Für die Stadt Heidenheim entstand ein einheitliches visuelles Erscheinungsbild rund um das Projekt „Heidenheim erleben“.
+    Ich entwickelte ein prägnantes Logo als Herzstück der Markenidentität, gestaltete eine konsistente Brand Identity und entwarf das UI Design der begleitenden Landingpage. Ergänzend sorgten Flyer und Plakat für eine stimmige, crossmediale Kommunikation.'
+  linktext: 'Mehr zur App erfahren'
+  tools: 'Adobe InDesign, Adobe Illustrator, Adobe Xd'
+  bild: 'assets/images/referenzen/referenz_af_heidenheim.jpg'
 
-- image: assets/images/referenzen/referenz_af_instagram.jpg
-  alt: 'Instagram Kampagne für Start-Up Wettbewerb'
-
-- image: assets/images/referenzen/referenz_af_esband_postcard.jpg
-  alt: 'Postkarte für Recruitung'
-
-- image: assets/images/referenzen/referenz_af_enalarson_postcards.jpg
-  alt: 'Postkarten für meinen eigenen Online Shop'
-
-- image: assets/images/referenzen/referenz_af_muettergenesung_web.jpg
-  alt: 'Website für die Müttergenesungswerk gGmbH'
-
-- image: assets/images/referenzen/referenz_af_haasfinanz.jpg
-  alt: 'Arbeitsbuch zum Thema Versicherungen'
-
-- image: assets/images/referenzen/referenz_af_inktober23.jpg
-  alt: 'Inktober Challenge 2023'
-
-- image: assets/images/referenzen/referenz_af_enalarson.jpg
-  alt: 'Odin und Thor als Poster für meinen eigenen Online Shop'
-
-- image: assets/images/referenzen/referenz_af_faultier.jpg
-  alt: 'Ein illustriertes Kinderbuch'
-
-- image: assets/images/referenzen/referenz_af_desi.jpg
-  alt: 'Plakate für den Lesesommer in der desi in Nürnberg'
+- kundin: 'Freies Projekt'
+  titel: 'Ein illustriertes Kinderbuch'
+  beschreibung: 'Ein Geschichte von Manfred Kyber, illustriert von mir: Ein Pinseläffchen möchte mithilfe eines Ratgeberbuchs endlich energischer werden. Auf seiner Lektürereise trifft es auf ein Faultier. Gelassen, träge und völlig zufrieden. Das Äffchen ist überzeugt: Auch das Faultier braucht mehr Schwung! Doch das Faultier?'
+  tools: 'Procreate, Adobe Illustrator'
+  bild: 'assets/images/referenzen/referenz_af_faultier.jpg'

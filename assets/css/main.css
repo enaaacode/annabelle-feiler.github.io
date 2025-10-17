@@ -915,89 +915,95 @@ blockquote {
 /* ============================================================= */
 
 .projekte {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing);
-  align-items: center;
-}
-
-.projekte-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
 }
 
-@media (max-width: 700px) {
-  .projekte-grid {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-.image-container {
-  flex: 1;
-  position: relative;
-  display: inline-block;
-}
-
-.image-container img {
-  display: block;
-  max-width: 300px;
-  height: auto;
-}
-
-.hover-text {
+.projekt__card {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  overflow: hidden;
+  border-radius: var(--radius, 1rem);
+  background-color: var(--color-bg-cards);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: var(--gap);
-  opacity: 0;
-  transition: opacity 0.4s ease;
 }
 
-.image-container:hover .hover-text {
-  opacity: 1;
+.projekt__img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-color: #f5f5f5;
 }
 
-/* ======================== Lightbox-Overlay =========================== */
-
-.lightbox {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
+.projekt__img img {
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  z-index: 999;
-  justify-content: center;
-  align-items: center;
+  object-fit: cover;
+  display: block;
+  border-top-left-radius: var(--radius, 1rem);
+  border-top-right-radius: var(--radius, 1rem);
+  transition: transform 0.4s ease;
+}
+
+.projekt-container {
+  display: flex;
   flex-direction: column;
   gap: 1rem;
+  text-align: left;
+  padding: 2rem;
+  flex: 1;
 }
 
-.lightbox:target {
+.projekt__text {
   display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
 }
 
-.lightbox img {
-  max-width: 90%;
-  max-height: 90%;
+.projekt__eyebrow {
+  letter-spacing: 0.05em;
+  color: rgb(137, 137, 168);
 }
 
-.close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  color: white;
-  font-size: 30px;
+.projekt__beschreibung {
+  color: var(--color-text-heading);
+  line-height: 1.5;
+}
+
+.externer-link {
+  display: inline-flex;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+  align-self: flex-start;
+  gap: 0.5rem;
+  align-items: center;
+  border-radius: 0.25rem;
+  white-space: nowrap;
   text-decoration: none;
+}
+
+.externer-link svg {
+  flex-shrink: 0;
+  width: 1em;
+  height: 1em;
+}
+
+.projekt__tools {
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .projekte {
+    grid-template-columns: 1fr;
+  }
+
+  .projekt-container {
+    padding: 1.5rem;
+  }
 }

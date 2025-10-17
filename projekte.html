@@ -1,0 +1,72 @@
+---
+layout: startseite
+title: Meine Projekte
+description: Strukturverliebt, code-affin und überzeugte Verfechterin menschzentrierter Gestaltung. Erfahre hier mehr über meine Projekte.
+---
+
+<div class="contentsite">
+  <div class="heading">
+    <h1>Lieblingsprojekte</h1>
+  </div>
+
+  <section class="projekte">
+    {% for projekt in site.data.projekte %}
+    <div class="projekt__card">
+      <div class="projekt__img">
+        <img src="{{ projekt.bild }}" alt="{{ projekt.titel }}" />
+      </div>
+
+      <div class="projekt-container">
+        <div class="projekt__headline">
+          <p class="projekt__eyebrow">{{ projekt.kundin }}</p>
+          <h2>{{ projekt.titel }}</h2>
+        </div>
+
+        <p class="projekt__beschreibung">{{ projekt.beschreibung }}</p>
+
+        {% if projekt.link %}
+        <a
+          href="{{ projekt.link }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="externer-link"
+        >
+          {{ projekt.linktext }}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+            />
+            <polyline points="15 3 21 3 21 9" />
+            <line x1="10" y1="14" x2="21" y2="3" />
+          </svg>
+        </a>
+        {% endif %}
+
+        <div class="projekt__tools code-style">
+          <small>{{ projekt.tools }}</small>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+  <div class="button-wrapper">
+    <a
+      class="button primary"
+      href="mailto:hello@studio-feiler.com?subject=Anfrage&body=Hi Annabelle,"
+      aria-label="Annabelle direkt per E-Mail kontaktieren"
+      title="Schreib mir eine E-Mail"
+    >
+      Projekt anfragen
+    </a>
+  </div>
+</div>

@@ -722,7 +722,7 @@ summary::after {
 
 .blog-grid-container {
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
   align-items: stretch;
 }

@@ -25,8 +25,41 @@
   tools: 'Adobe InDesign, Adobe Illustrator, Adobe Xd'
   bild: 'assets/images/referenzen/referenz_af_heidenheim.jpg'
 
+- kundin: 'VAG Nürnberg'
+  titel: 'NürnbergMOBIL App'
+  beschreibung:
+    'Gemeinsam mit insert effect aus Nürnberg habe ich die App in puncto
+    digitale Barrierefreiheit optimiert. Hierfür wurden Workshop konzipiert
+    und durchgeführt, ein skalierbares, barrierefreies Design System in
+    Figma aufgebaut und ein methodisch fundierter Interview-Leitfaden für
+    einen Usability Test entwickelt.'
+  link: 'https://www.nuernbergmobil.de/'
+  linktext: 'Mehr zur App erfahren'
+  tools: 'Figma'
+  bild: 'assets/images/referenzen/referenz_af_nuemo.png'
+
 - kundin: 'Freies Projekt'
   titel: 'Ein illustriertes Kinderbuch'
   beschreibung: 'Eine Geschichte von Manfred Kyber, illustriert von mir: Ein Pinseläffchen möchte mithilfe eines Ratgeberbuchs endlich energischer werden. Auf seiner Lektürereise trifft es auf ein Faultier. Gelassen, träge und völlig zufrieden. Das Äffchen ist überzeugt: Auch das Faultier braucht mehr Schwung! Doch das Faultier?'
   tools: 'Procreate, Adobe Illustrator'
   bild: 'assets/images/referenzen/referenz_af_faultier.jpg'
+
+- kundin: 'Freies Projekt'
+  titel: 'Etsy Shop'
+  beschreibung: '2020 habe ich meinen Etsy Shop „ena larson“ eröffnet. Hier verkaufte ich anfangs Drucke, Postkarten und Sticker mit Motiven aus dem nordischen Pantheon. Inzwischen nutze ich den Shop auch als kreatives Experimentierfeld. So habe ich mich etwa im Design von Ohrringen versucht.'
+  link: 'https://www.etsy.com/de/shop/enalarson'
+  linktext: 'Im Shop stöbern'
+  tools: 'Affinity Designer, Adobe Illustrator'
+  bild: 'assets/images/referenzen/referenz_af_enalarson.jpg'
+
+- kundin: 'Freies Projekt'
+  titel: 'Visitenkarten'
+  beschreibung: 'Es gibt Menschen die behaupten Print sei tot. Ich gehöre nicht dazu. Ich habe eine große Liebe im Herzen für wertige Papiere und feine Veredelungen. Zur Frankfurter Buchmesse 2024 habe ich mir daher eigens besondere Visitenkarten gezaubert.'
+  tools: 'Affinity Designer, Affinity Publisher'
+  bild: 'assets/images/referenzen/referenz_af_vk.jpg'
+
+- kundin: 'Max Schlatterer GmbH & Co. KG'
+  titel: 'Recruiting Postkarte'
+  beschreibung: 'Wie macht man Ausbildung spannend? Mit Farbe, Klarheit und Persönlichkeit! Ich habe eine Postkarte gestaltet, die junge Talente direkt anspricht. Das Design setzt auf Wiedererkennung, klare Infos und eine unkomplizierte Verbindung über QR-Code zur digitalen Bewerbung.'
+  tools: 'Affinity Publisher'
+  bild: 'assets/images/referenzen/referenz_af_esband_postcard.jpg'

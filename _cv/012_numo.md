@@ -9,5 +9,5 @@ linktext: "Mehr erfahren"
 ---
 
 - Workshops und Beratung zur digitalen Barrierefreiheit
-- Aufbau eines barrierefreien Design Systems in Figma
-- Erstellung eines Interview-Leitfadens für ein Usability Testing
+- Aufbau eines barrierarmen Design Systems in Figma
+- Erstellung eines Interview-Leitfadens für einen Usability Test

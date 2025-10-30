@@ -8,6 +8,6 @@ link: "https://www.loberon.de/"
 linktext: "Loberon Online-Shop durchstöbern"
 ---
 
-- Betreuung und Pflege des Online Shops
-- Abstimmung mit Produktfotograf*innen und Texter*innen
+- Betreuung und Pflege des Online-Shops
+- Abstimmung mit Produktfotografinnen und Textern
 - Design von diversen Werbemitteln

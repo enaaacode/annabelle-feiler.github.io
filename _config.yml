@@ -12,3 +12,4 @@ collections:
   projekte:
     output: true
     permalink: /projekt/:name/
+  cv:

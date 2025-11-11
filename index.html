@@ -98,18 +98,15 @@ title: ''
           <img src="{{ post.image }}" alt="" />
         </div>
 
-        <div class="blog-grid--element-label label {{ post.category }}">
-          {{ post.category }}
-        </div>
         <div class="blog-grid--element-titel"><h3>{{ post.title }}</h3></div>
         <div class="blog-grid--element-description">{{ post.description }}</div>
         <div>
           <div class="blog-grid--element-datum code-style">
             <small>
-              {{ post.date | date: "%d.%m.%Y" }} ✷ {% assign words =
-              post.content | number_of_words %} {% assign minutes = words |
-              divided_by:150 %} {% if minutes < 1 %} Lesedauer: 1 Min {% else %}
-              Lesedauer: {{ minutes }} Min {% endif %}
+              {% assign words = post.content | number_of_words %} {% assign
+              minutes = words | divided_by:150 %} {% if minutes < 1 %}
+              Lesedauer: 1 Min {% else %} Lesedauer: {{ minutes }} Min {% endif
+              %}
             </small>
           </div>
         </div>

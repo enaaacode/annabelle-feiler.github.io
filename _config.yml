@@ -13,3 +13,4 @@ collections:
     output: true
     permalink: /projekt/:name/
   cv:
+  coverletter:

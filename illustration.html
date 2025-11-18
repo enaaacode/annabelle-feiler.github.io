@@ -1,0 +1,25 @@
+---
+layout: blogstart
+title: Blog
+description: Hier schreibe ich über Design, Code und den ganz normalen Wahnsinn.
+---
+
+<!-- TODO Ansicht umschalten: von Grid zu Liste -->
+
+<div class="contentsite">
+  <div class="heading">
+    <h1>Illustration ✷ Portfolio</h1>
+  </div>
+
+  <div class="illu-grid-container">
+    {% for item in site.data['illu-gallerie'] %}
+
+    <div class="illu-grid--element">
+      <div class="illu-grid--element-image boxradius">
+        <img src="{{ item.link }}" loading="lazy" />
+      </div>
+    </div>
+
+    {% endfor %}
+  </div>
+</div>

@@ -1,17 +1,14 @@
 - title: 'Startseite'
-  link: '/index.html'
-
-- title: 'Leistungen'
-  link: '/leistungen.html'
-
-- title: 'Projekte'
-  link: '/projekte.html'
+  link: '/'
 
 - title: 'Über mich'
-  link: '/about.html'
+  link: '/about'
+
+- title: 'Projekte'
+  link: '/projekte'
 
 - title: 'Blog'
-  link: '/blog.html'
+  link: '/blog'
 
 - title: 'Kontakt'
-  link: '/kontakt.html'
+  link: '/kontakt'

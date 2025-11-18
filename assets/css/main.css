@@ -1046,3 +1046,44 @@ blockquote {
   flex-direction: row;
   justify-content: space-between;
 }
+
+/* ========================================================= */
+/* ===================== START LEISTUNG GRID =============== */
+/* ========================================================= */
+
+.start-leistung-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+.start-leistung-grid-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--color-bg-cards);
+  padding: 2rem;
+  border-radius: var(--radius);
+}
+
+/* ========================================================= */
+/* ===================== Illustration GRID ================= */
+/* ========================================================= */
+
+.illu-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+.illu-grid--element-image {
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -59,19 +59,36 @@ title: ''
     <h2>Meine Leistungen</h2>
     <p>Gestaltung und technische Umsetzung aus einer Hand</p>
   </div>
-  <div class="leistungen-grid">
-    {% for item in site.data.leistungen %}
-    <div class="leistungen-grid-box boxradius">
-      <div class="leistungen-icon">
-        <img src="{{item.icon}}" alt="" width="16px" height="16px" />
-      </div>
-      <div class="leistungen-grid-text">
-        <h3>{{item.titel}}</h3>
-        <p>{{item.beschreibung}}</p>
-      </div>
-    </div>
-    {% endfor %}
+  {% for item in site.leistungen %}
+  <div class="content-box boxradius">
+    <img src="{{ item.icon }}" alt="" width="50px" />
+    <h2>{{ item.title }}</h2>
+
+    {{ item.content }}
   </div>
+  {% endfor %}
+
+  <div class="heading">
+    <h2>Meine Herangehensweise</h2>
+  </div>
+
+  <section class="leistungen">
+    <div class="leistungen-grid">
+      {% for item in site.data.leistungen %}
+
+      <div class="leistungen-grid-box boxradius">
+        <div class="leistungen-icon">
+          <img src="{{item.icon}}" alt="" width="16px" height="16px" />
+        </div>
+        <div class="leistungen-grid-text">
+          <h3>{{item.titel}}</h3>
+          <p>{{item.beschreibung}}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
   <div class="button-wrapper">
     <a
       class="button primary"

@@ -1,0 +1,23 @@
+---
+layout: blogstart
+title: Illustration
+description: Das ist mein Portfolio für Illustrationen
+---
+
+<div class="contentsite">
+  <div class="heading">
+    <h1>Das Faultier</h1>
+    <p>Ein illustriertes Kinderbuch</p>
+    <small>
+      <a href="https://studio-feiler.com/projekte">
+        Zurück zur Projektübersicht
+      </a>
+    </small>
+  </div>
+
+  <div class="faultier-container">
+    {% for item in site.data.faultier %}
+    <img src="{{ item.link }}" loading="lazy" />
+    {% endfor %}
+  </div>
+</div>

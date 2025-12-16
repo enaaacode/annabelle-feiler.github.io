@@ -1,0 +1,81 @@
+---
+layout: startseite
+title: Mein Portfolio
+description:
+---
+
+<div class="contentsite">
+  <div class="heading">
+    <h1>Portfolio</h1>
+  </div>
+  <section class="leistungen" id="leistungen">
+    {% for item in site.leistungen %}
+    <div class="content-box boxradius">
+      <img src="{{ item.icon }}" alt="" width="50px" />
+      <h2>{{ item.title }}</h2>
+
+      {{ item.content }}
+    </div>
+    {% endfor %}
+
+    <div class="job-wrapper">
+      <div class="heading">
+        <h1>Résumé</h1>
+      </div>
+
+      {% for post in site.cv reversed %}
+
+      <div class="job-container">
+        <div class="job-container--first-line">
+          <small>{{ post.task }}</small>
+          <small>{{ post.zeitraum }}</small>
+        </div>
+        <div class="job-container--project">
+          <h2>{{ post.title }}</h2>
+          <p>{{ post.role }} @{{ post.ort }}</p>
+        </div>
+        <div class="code-style">{{ post.content }}</div>
+        {% if post.link %}
+        <a
+          href="{{ post.link }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="externer-link"
+        >
+          {{ post.linktext }}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+            />
+            <polyline points="15 3 21 3 21 9" />
+            <line x1="10" y1="14" x2="21" y2="3" />
+          </svg>
+        </a>
+        {% endif %}
+      </div>
+
+      {% endfor %}
+    </div>
+
+    <div class="button-wrapper">
+      <a
+        class="button primary"
+        href="mailto:hello@studio-feiler.com?subject=Anfrage&body=Hi Annabelle,"
+        aria-label="Annabelle direkt per E-Mail kontaktieren"
+        title="Schreib mir eine E-Mail"
+      >
+        Projekt anfragen
+      </a>
+    </div>
+  </section>
+</div>

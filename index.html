@@ -1,5 +1,5 @@
 ---
-layout: startseite
+layout: startseiteohnea11y
 title: 'studio feiler ✷ Nachhaltige und barrierefreie Gestaltung'
 ---
 
@@ -18,17 +18,14 @@ title: 'studio feiler ✷ Nachhaltige und barrierefreie Gestaltung'
         <div class="intro-headline">
           <h1>Nachhaltige und barrierefreie Gestaltung</h1>
           <p class="code-style">
-            Hi, ich bin Annabelle 👋 Digitale Tüftlerin, überzeugte Verfechterin
-            von menschzentriertem Design & Wegbegleiterin.
+            Hi, ich bin Annabelle 👋 Digitale Tüftlerin, Künstlerin & überzeugte
+            Verfechterin von menschzentrierter Gestaltung.
           </p>
         </div>
         <p>
-          Ich gestalte und entwickle Websites, die nicht nur gut aussehen und
-          funktional sind, sondern auch ökologisch sinnvoll und inklusiv.
-          Gestalterisch durchdacht und mit einem Fokus auf das Wesentliche: die
-          Menschen, die sie nutzen.
+          Ich gestalte und entwickle Websites, die nicht nur fancy aussehen,
+          sondern auch ökologisch sinnvoll und inklusiv sind.
         </p>
-        <p>Wollen wir ein Stück zusammen gehen?</p>
 
         <div class="button-wrapper">
           <a
@@ -51,88 +48,5 @@ title: 'studio feiler ✷ Nachhaltige und barrierefreie Gestaltung'
       </div>
       {% endfor %}
     </div>
-  </div>
-</section>
-
-<section class="leistungen" id="leistungen">
-  <div class="heading">
-    <h2>Meine Leistungen</h2>
-    <p>Gestaltung und technische Umsetzung aus einer Hand</p>
-  </div>
-  {% for item in site.leistungen %}
-  <div class="content-box boxradius">
-    <img src="{{ item.icon }}" alt="" width="50px" />
-    <h2>{{ item.title }}</h2>
-
-    {{ item.content }}
-  </div>
-  {% endfor %}
-
-  <div class="heading">
-    <h2>Meine Herangehensweise</h2>
-  </div>
-
-  <section class="leistungen">
-    <div class="leistungen-grid">
-      {% for item in site.data.leistungen %}
-
-      <div class="leistungen-grid-box boxradius">
-        <div class="leistungen-icon">
-          <img src="{{item.icon}}" alt="" width="16px" height="16px" />
-        </div>
-        <div class="leistungen-grid-text">
-          <h3>{{item.titel}}</h3>
-          <p>{{item.beschreibung}}</p>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-
-  <div class="button-wrapper">
-    <a
-      class="button primary"
-      href="mailto:hello@studio-feiler.com?subject=Anfrage&body=Hi Annabelle,"
-      aria-label="Annabelle direkt per E-Mail kontaktieren"
-      title="Schreib mir eine E-Mail"
-    >
-      Projekt anfragen
-    </a>
-  </div>
-</section>
-
-<section class="blog" id="blog">
-  <div class="heading">
-    <h2>Blog</h2>
-    <p>Projekte, Gedanken und Dinge, die mich begeistern</p>
-  </div>
-
-  <div class="blog-grid-container">
-    {% for post in site.posts limit:3 %}
-    <a href="{{ post.url }}">
-      <div class="blog-grid--element">
-        <div class="blog-grid--element-image boxradius">
-          <img src="{{ post.image }}" alt="" />
-        </div>
-
-        <div class="blog-grid--element-titel"><h3>{{ post.title }}</h3></div>
-        <div class="blog-grid--element-description">{{ post.description }}</div>
-        <div>
-          <div class="blog-grid--element-datum code-style">
-            <small>
-              {% assign words = post.content | number_of_words %} {% assign
-              minutes = words | divided_by:150 %} {% if minutes < 1 %}
-              Lesedauer: 1 Min {% else %} Lesedauer: {{ minutes }} Min {% endif
-              %}
-            </small>
-          </div>
-        </div>
-      </div>
-    </a>
-    {% endfor %}
-  </div>
-
-  <div class="button-wrapper">
-    <a href="/blog.html" class="button primary">Zum Blog</a>
   </div>
 </section>

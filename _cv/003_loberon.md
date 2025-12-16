@@ -4,8 +4,7 @@ task: "Projektmanagement"
 role: "Festanstellung"
 ort: "Loberon GmbH"
 zeitraum: "Februar bis August 2017"
-link: "https://www.loberon.de/"
-linktext: "Loberon Online-Shop durchstöbern"
+
 ---
 
 - Betreuung und Pflege des Online-Shops

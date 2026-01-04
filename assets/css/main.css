@@ -697,6 +697,7 @@ summary {
   align-items: center;
   color: white;
   margin-bottom: 0.25rem;
+  cursor: pointer;
 }
 
 summary::after {

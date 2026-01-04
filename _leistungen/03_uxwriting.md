@@ -1,9 +1,8 @@
 ---
 title: "UX Writing und Einfache Sprache"
 icon: "assets/icons/leistungen/speech-bubble.png"
+beschreibung: "Gute Gestaltung hört nicht bei Bildern auf, sondern setzt sich in Texten fort. Ich unterstütze dabei, Inhalte verständlich, nutzenorientiert und inklusiv zu formulieren. "
 ---
-
-Gute Gestaltung hört nicht bei Bildern auf, sondern setzt sich in Texten fort. Ich unterstütze dabei, Inhalte verständlich, nutzenorientiert und inklusiv zu formulieren. 
 
 - Redaktion und Gestaltung von Corporate Blogs
 - Textkonzeption für barrierefreie Websites und Anwendungen

@@ -1,11 +1,8 @@
 ---
 title: "Webdesign und Programmierung"
 icon: "assets/icons/leistungen/coding.png"
+beschreibung: "Ich entwickle Websites mit der Überzeugung, dass digitale Räume genauso durchdacht, verantwortungsvoll und nachhaltig sein sollten wie analoge. Dabei verbinde ich ein gutes Gespür für Gestaltung mit technischem Know-how."
 ---
-
-Ich entwickle Websites mit der Überzeugung, dass digitale Räume genauso durchdacht, verantwortungsvoll und nachhaltig sein sollten wie analoge. Dabei verbinde ich ein gutes Gespür für Gestaltung mit technischem Know-how. 
-
-### Mögliche Projekte
 
 - Gestaltung und Entwicklung von Websites
 - Barrierefreiheitstests von Websites und Apps

@@ -4,36 +4,46 @@ title: Blog
 description: Hier schreibe ich über Design, Code und den ganz normalen Wahnsinn.
 ---
 
-<!-- TODO Ansicht umschalten: von Grid zu Liste -->
+<script src="/assets/js/datafilter.js" defer></script>
 
 <div class="contentsite">
   <div class="heading">
     <h1>Mein Blog</h1>
   </div>
 
+  <div class="blog-filter">
+    <button data-filter="alle" class="active">Alle</button>
+    <button data-filter="a11y">a11y</button>
+    <button data-filter="design">Design</button>
+    <button data-filter="code">Code</button>
+    <button data-filter="sonstiges">Sonstiges</button>
+  </div>
+
   <div class="blog-grid-container">
     {% for post in site.posts %}
-    <a href="{{ post.url }}">
+    <a
+      href="{{ post.url }}"
+      class="blog-item"
+      data-category="{{ post.category | join: ','}}"
+    >
       <div class="blog-grid--element">
         <div class="blog-grid--element-image boxradius">
           <img src="{{ post.image }}" alt="" />
         </div>
 
-        <!-- <div class="blog-grid--element-label label {{ post.category }}">
-          {{ post.category }}
-        </div> -->
-        <div class="blog-grid--element-titel"><h3>{{ post.title }}</h3></div>
+        <div class="blog-grid--element-titel">
+          <h3>{{ post.title }}</h3>
+        </div>
+
         <div class="blog-grid--element-description">{{ post.description }}</div>
-        <div>
-          <div class="blog-grid--element-datum code-style">
-            <small>{{ post.date | date: "%d.%m.%Y" }} ✷</small>
-            <small>
-              {% assign words = post.content | number_of_words %} {% assign
-              minutes = words | divided_by:150 %} {% if minutes < 1 %}
-              Lesedauer: 1 Min {% else %} Lesedauer: {{ minutes }} Min {% endif
-              %}
-            </small>
-          </div>
+
+        <div class="blog-grid--element-datum code-style">
+          <small>{{ post.date | date: "%d.%m.%Y" }} ✷</small>
+          <small>
+            {% assign words = post.content | number_of_words %} {% assign
+            minutes = words | divided_by:150 %} {% if minutes < 1 %} Lesedauer:
+            1 Min {% else %} Lesedauer: {{ minutes }} Min {% endif %}
+          </small>
         </div>
       </div>
     </a>

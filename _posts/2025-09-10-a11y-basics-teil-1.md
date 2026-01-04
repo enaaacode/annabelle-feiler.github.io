@@ -2,6 +2,7 @@
 layout: post
 title: 'a11y Design Basics Teil I'
 date: 2025-09-10
+category: a11y
 image: 'assets/images/blog/2025-09-10-a11y-basics-teil-1.png'
 description: 'Barrierefreie Gestaltung mit den WCAG-Kriterien für Farben und Texte.'
 ---

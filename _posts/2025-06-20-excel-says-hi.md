@@ -2,6 +2,7 @@
 layout: post
 title: 'Excel lässt grüßen'
 date: 2025-06-19
+category: design
 image: 'assets/images/blog/2025-06-18-excel-says-hi_cover.png'
 description: 'Tabellen sind schon praktisch, aber sind sie auch ohne Frust nutzbar?'
 ---

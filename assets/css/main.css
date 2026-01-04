@@ -678,6 +678,18 @@ details {
   text-align: left;
 }
 
+.leistungen details {
+  padding: 0rem;
+}
+
+.leistungen summary {
+  justify-content: left;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
 summary {
   display: flex;
   list-style: none;
@@ -935,177 +947,63 @@ blockquote {
   border: 0;
 }
 
-/* ============================================================= */
-/* ======================== Projekte =========================== */
-/* ============================================================= */
+/* ========================================================= */
+/* ======================= BLOG: FILTER ==================== */
+/* ========================================================= */
 
-.projekte {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
-}
-
-.projekt__card {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  border-radius: 1rem;
-  background-color: var(--color-bg-cards);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  height: 100%;
-}
-
-.projekt__img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  overflow: hidden;
-  flex-shrink: 0;
-  background-color: #f5f5f5;
-}
-
-.projekt__img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  transition: transform 0.4s ease;
-}
-
-.projekt-container {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  text-align: left;
-  padding: 2rem;
-  flex: 1;
-}
-
-.projekt__text {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  text-align: left;
-}
-
-.projekt__eyebrow {
-  letter-spacing: 0.05em;
-  color: rgb(137, 137, 168);
-}
-
-.projekt__beschreibung {
-  color: var(--color-text-heading);
-  line-height: 1.5;
-}
-
-.externer-link {
-  display: inline-flex;
-  flex: 0 0 auto;
-  width: auto;
-  max-width: none;
-  align-self: flex-start;
-  gap: 0.5rem;
-  align-items: center;
-  border-radius: 0.25rem;
-  white-space: nowrap;
-  text-decoration: none;
-}
-
-.externer-link svg {
-  flex-shrink: 0;
-  width: 1em;
-  height: 1em;
-}
-
-.projekt__tools {
-  margin-top: auto;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .projekte {
-    grid-template-columns: 1fr;
-  }
-
-  .projekt-container {
-    padding: 1.5rem;
-  }
-}
-
-/* =========================================================== */
-/* ======================== RESUME =========================== */
-/* =========================================================== */
-.job-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-.job-container {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  border-radius: 1rem;
-  background-color: var(--color-bg-cards);
-  padding: 2rem;
-  text-align: left;
-}
-
-.job-container--project {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-
-.job-container--first-line {
+.blog-filter {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-
-/* ========================================================= */
-/* ===================== START LEISTUNG GRID =============== */
-/* ========================================================= */
-
-.start-leistung-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  margin: 0 auto;
-}
-
-.start-leistung-grid-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 1rem;
-  background-color: var(--color-bg-cards);
-  padding: 2rem;
-  border-radius: var(--radius);
-}
-
-/* ========================================================= */
-/* ===================== Illustration GRID ================= */
-/* ========================================================= */
-
-.illu-grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin: 0 auto;
-}
-
-.illu-grid--element-image {
-  overflow: hidden;
-  width: 100%;
-  aspect-ratio: 1/1;
-  display: flex;
-  align-items: center;
   justify-content: center;
 }
-.faultier-container {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+
+@media (max-width: 500px) {
+  .blog-filter {
+    flex-direction: column;
+  }
+}
+
+/* Button Reset */
+button {
+  -webkit-appearance: none;
+  border-radius: 0;
+  text-align: inherit;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
+
+/* Button Styling */
+
+button[data-filter] {
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  transition: 0.3s;
+
+  /*
+  verhindert Anti-Aliasing-Artefakte
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  background: transparent;
+  color: #fff;
+  box-shadow: inset 0 0 0 1px #fff; 
+  */
+}
+
+button[data-filter]:hover {
+  background-color: white;
+  color: var(--color-bg);
+  opacity: 0.6;
+}
+
+button[data-filter].active {
+  background-color: white;
+  color: var(--color-bg);
 }

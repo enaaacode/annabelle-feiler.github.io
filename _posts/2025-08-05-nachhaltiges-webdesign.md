@@ -2,6 +2,9 @@
 layout: post
 title: 'Nachhaltiges Webdesign'
 date: 2025-08-05
+category: 
+    - code
+    - design
 image: 'assets/images/blog/2025-08-05-nachhaltiges-webdesign_cover.png'
 description: '5 Schritte zur nachhaltigen Website.'
 ---

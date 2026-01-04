@@ -64,6 +64,49 @@ title: 'studio feiler ✷ Nachhaltige und barrierefreie Gestaltung'
 </section>
 
 <div class="contentsite">
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+   3 Blogposts 
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <div class="heading">
+    <h1>Ich schreibe Sachen</h1>
+  </div>
+
+  <div class="blog-grid-container">
+    {% for post in site.posts limit:3 %}
+    <a href="{{ post.url }}">
+      <div class="blog-grid--element">
+        <div class="blog-grid--element-image boxradius">
+          <img src="{{ post.image }}" alt="" />
+        </div>
+
+        <!-- <div class="blog-grid--element-label label {{ post.category }}">
+          {{ post.category }}
+        </div> -->
+        <div class="blog-grid--element-titel"><h3>{{ post.title }}</h3></div>
+        <div class="blog-grid--element-description">{{ post.description }}</div>
+        <div>
+          <div class="blog-grid--element-datum code-style">
+            <small>{{ post.date | date: "%d.%m.%Y" }} ✷</small>
+            <small>
+              {% assign words = post.content | number_of_words %} {% assign
+              minutes = words | divided_by:150 %} {% if minutes < 1 %}
+              Lesedauer: 1 Min {% else %} Lesedauer: {{ minutes }} Min {% endif
+              %}
+            </small>
+          </div>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
+  <div class="button-wrapper">
+    <a class="button primary" href="/blog">Zum Blog</a>
+  </div>
+
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+   Leistungen
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <div class="heading">
     <h1>Ich mache Sachen</h1>
   </div>
@@ -72,7 +115,12 @@ title: 'studio feiler ✷ Nachhaltige und barrierefreie Gestaltung'
     <div class="content-box boxradius">
       <h2>{{ item.title }}</h2>
 
-      {{ item.content }}
+      {{ item.beschreibung }}
+
+      <details>
+        <summary><strong>Mögliche Projekte</strong></summary>
+        {{ item.content }}
+      </details>
     </div>
     {% endfor %}
   </section>

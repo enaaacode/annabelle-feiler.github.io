@@ -1,5 +1,5 @@
 ---
-layout: startseiteohnea11y
+layout: startseite
 title: 'studio feiler ✷ Nachhaltige und barrierefreie Gestaltung'
 ---
 
@@ -15,26 +15,38 @@ title: 'studio feiler ✷ Nachhaltige und barrierefreie Gestaltung'
         />
       </div>
       <div class="intro-text">
-        <div class="intro-headline">
-          <h1>Nachhaltige und barrierefreie Gestaltung</h1>
-          <p class="code-style">
-            Hi, ich bin Annabelle 👋 Digitale Tüftlerin, Künstlerin & überzeugte
-            Verfechterin von menschzentrierter Gestaltung.
+        <div class="intro-text--element">
+          <div class="intro-headline">
+            <h1>Nachhaltige und barrierefreie Gestaltung</h1>
+            <p class="code-style">
+              Hi, ich bin Annabelle 👋 Digitale Tüftlerin, Künstlerin &
+              überzeugte Verfechterin von menschzentrierter Gestaltung.
+            </p>
+          </div>
+          <p>
+            Mit meiner Kreativpower unterstütze ich am liebsten NGOs und
+            Einrichtungen aus der Kulturszene. Wollen wir ein Stück zusammen
+            gehen?
           </p>
-        </div>
-        <p>
-          Mit meiner Kreativpower unterstütze ich am liebsten NGOs und
-          Einrichtungen aus der Kulturszene.
-        </p>
 
-        <div class="button-wrapper">
-          <a
-            class="button primary"
-            href="mailto:hello@studio-feiler.com?subject=Anfrage&body=Hi Annabelle,"
-            aria-label="Annabelle direkt per E-Mail kontaktieren"
-            title="Schreib mir eine E-Mail"
-          >
-            Schreib mir
+          <div class="button-wrapper">
+            <a
+              class="button primary"
+              href="mailto:hello@studio-feiler.com?subject=Anfrage&body=Hi Annabelle,"
+              aria-label="Annabelle direkt per E-Mail kontaktieren"
+              title="Schreib mir eine E-Mail"
+            >
+              Schreib mir
+            </a>
+          </div>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://github.com/enaaacode" target="_blank" rel="noopener">
+            <img src="assets/icons/mastodon.svg" alt="" title="Mastodon" />
+          </a>
+          <a href="https://chaos.social/@ena" target="_blank" rel="noopener">
+            <img src="assets/icons/github.svg" alt="" title="GitHub" />
           </a>
         </div>
       </div>
@@ -50,3 +62,29 @@ title: 'studio feiler ✷ Nachhaltige und barrierefreie Gestaltung'
     </div>
   </div>
 </section>
+
+<div class="contentsite">
+  <div class="heading">
+    <h1>Ich mache Sachen</h1>
+  </div>
+  <section class="leistungen" id="leistungen">
+    {% for item in site.leistungen %}
+    <div class="content-box boxradius">
+      <h2>{{ item.title }}</h2>
+
+      {{ item.content }}
+    </div>
+    {% endfor %}
+  </section>
+
+  <div class="button-wrapper">
+    <a
+      class="button primary"
+      href="mailto:hello@studio-feiler.com?subject=Anfrage&body=Hi Annabelle,"
+      aria-label="Annabelle direkt per E-Mail kontaktieren"
+      title="Schreib mir eine E-Mail"
+    >
+      Projekt anfragen
+    </a>
+  </div>
+</div>

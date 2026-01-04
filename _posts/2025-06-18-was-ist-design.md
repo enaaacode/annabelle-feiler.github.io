@@ -2,10 +2,6 @@
 layout: post
 title: 'Was ist Design?'
 date: 2025-06-20
-category: know-how
-tags:
-  - ux
-  - designphilosophie
 image: 'assets/images/blog/2025-06-18-was-ist-design_cover.png'
 description: 'Warum gutes Design mehr ist als hübsch.'
 ---

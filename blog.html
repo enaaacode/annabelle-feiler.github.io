@@ -26,6 +26,7 @@ description: Hier schreibe ich über Design, Code und den ganz normalen Wahnsinn
         <div class="blog-grid--element-description">{{ post.description }}</div>
         <div>
           <div class="blog-grid--element-datum code-style">
+            <small>{{ post.date | date: "%d.%m.%Y" }} ✷</small>
             <small>
               {% assign words = post.content | number_of_words %} {% assign
               minutes = words | divided_by:150 %} {% if minutes < 1 %}
@@ -45,7 +46,8 @@ description: Hier schreibe ich über Design, Code und den ganz normalen Wahnsinn
   <p class="code-style">
     Du möchtest informiert werden, wenn es einen neuen Beitrag gibt?
     <br />
-    Schreib mir, dann trage ich dich in meine Mailingliste ein.
+    Schreib mir, dann trage ich dich in meine Mailingliste ein. Oder abonniere
+    meinen RSS Feed.
   </p>
   <div class="button-wrapper">
     <a

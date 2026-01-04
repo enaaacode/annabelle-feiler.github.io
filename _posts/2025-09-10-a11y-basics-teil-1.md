@@ -2,25 +2,12 @@
 layout: post
 title: 'a11y Design Basics Teil I'
 date: 2025-09-10
-category: design
-tags:
-  - a11y
-  - Design
-  - UX Design
-  - UX/UI Design
 image: 'assets/images/blog/2025-09-10-a11y-basics-teil-1.png'
 description: 'Barrierefreie Gestaltung mit den WCAG-Kriterien für Farben und Texte.'
 ---
 
-It's fun to stay at the Y.M.C.A.  
-It's fun to stay at the Y.M.C.A.  
-**_sing_**
-
-Hast du die Melodie im Kopf? Gut.   
-Dann jetzt alle zusammen:
-
-It’s fun to work with the WCAG  
-It’s fun to work with the WCAG
+_It’s fun to work with the WCAG_
+_It’s fun to work with the WCAG_
 
 Was es mit digitaler Barrierefreiheit auf sich hat, habe ich in meinem ersten Blogbeitrag angerissen. Wenn du also ganz frisch in dem Thema bist, dann starte gerne dort:
 

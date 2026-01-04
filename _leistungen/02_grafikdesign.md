@@ -3,7 +3,7 @@ title: "Grafikdesign"
 icon: "assets/icons/leistungen/curve.png"
 ---
 
-Wer soll erreicht werden? Was muss vermittelt werden? Und auf welchem Weg gelingt das am besten? Auf Grundlage dieser Fragen entwickle ich Gestaltungskonzepte mit klarer
+Wer soll erreicht werden? Was muss vermittelt werden? Und Warum? Auf Grundlage dieser Fragen entwickle ich Gestaltungskonzepte mit klarer
 Struktur, typografischem Feingefühl und Liebe fürs Detail.
 
 ### Mögliche Projekte

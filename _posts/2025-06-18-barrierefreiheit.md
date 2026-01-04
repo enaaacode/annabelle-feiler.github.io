@@ -2,11 +2,6 @@
 layout: post
 title: 'Digitale Barrierefreiheit'
 date: 2025-06-18
-category: know-how
-tags:
-  - ux
-  - designphilosophie
-  - a11y
 image: 'assets/images/blog/2025-06-18-barrierefreiheit_cover.png'
 description: 'Nicht nur Menschen mit einer Behinderung finden das gut.'
 ---

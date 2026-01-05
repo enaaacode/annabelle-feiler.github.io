@@ -7,12 +7,12 @@ image: 'assets/images/blog/2025-09-10-a11y-basics-teil-1.png'
 description: 'Barrierefreie Gestaltung mit den WCAG-Kriterien für Farben und Texte.'
 ---
 
-_It’s fun to work with the WCAG_
+_It’s fun to work with the WCAG_  
 _It’s fun to work with the WCAG_
 
 Was es mit digitaler Barrierefreiheit auf sich hat, habe ich in meinem ersten Blogbeitrag angerissen. Wenn du also ganz frisch in dem Thema bist, dann starte gerne dort:
 
-<a href="https://studio-feiler.com/know-how/2025/06/18/barrierefreiheit.html" target="_blank" rel="noopener">Hier geht’s zum Blogbeitrag über digitale Barrierefreiheit<a/>
+<a href="https://studio-feiler.com/a11y/2025/06/18/barrierefreiheit.html" target="_blank" rel="noopener">Hier geht’s zum Blogbeitrag über digitale Barrierefreiheit<a/>
 
 
 Dir liegt das Thema digitale Barrierefreiheit am Herzen und du möchtest deine nächste Website oder App nun barrierefrei bzw. barrierearm gestalten? Super! Dann bist du vielleicht schon über diese ominösen WCAG-Kriterien und Prüfschritte *gestolpert* – also im wahrsten Sinne des Wortes. Denn im ersten Moment wirken all diese Punkte die es zu beachten gibt wie Stolpersteine. 

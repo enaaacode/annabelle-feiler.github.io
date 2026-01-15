@@ -41,8 +41,8 @@
 - kundin: 'Freies Projekt'
   titel: 'Ein illustriertes Kinderbuch'
   beschreibung: 'Eine Geschichte von Manfred Kyber, illustriert von mir: Ein Pinseläffchen möchte mithilfe eines Ratgeberbuchs endlich energischer werden. Auf seiner Lektürereise trifft es auf ein Faultier. Gelassen, träge und völlig zufrieden. Das Äffchen ist überzeugt: Auch das Faultier braucht mehr Schwung! Doch das Faultier?'
-  link: 'https://studio-feiler.com/faultier'
-  linktext: 'Kinderbuch entdecken'
+  link:
+  linktext:
   tools: 'Procreate, Adobe Illustrator'
   bild: 'assets/images/referenzen/referenz_af_faultier.jpg'
 
@@ -62,6 +62,6 @@
 
 - kundin: 'Max Schlatterer GmbH & Co. KG'
   titel: 'Recruiting Postkarte'
-  beschreibung: 'Wie macht man Ausbildung spannend? Mit Farbe, Klarheit und Persönlichkeit! Ich habe eine Postkarte gestaltet, die junge Talente direkt anspricht. Das Design setzt auf Wiedererkennung, klare Infos und eine unkomplizierte Verbindung über QR-Code zur digitalen Bewerbung.'
+  beschreibung: 'Ich habe eine Postkarte gestaltet, die junge Talente direkt anspricht. Das Design setzt auf Wiedererkennung, klare Infos und eine unkomplizierte Verbindung über QR-Code zur digitalen Bewerbung.'
   tools: 'Affinity Publisher'
   bild: 'assets/images/referenzen/referenz_af_esband_postcard.jpg'

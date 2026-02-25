@@ -12,6 +12,3 @@ collections:
   projekte:
     output: true
     permalink: /projekt/:name/
-  insta:
-    output: true
-    permalink: /noinsta/:name/

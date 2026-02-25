@@ -38,8 +38,8 @@ body {
 
   --font-body: 'DM Sans', sans-serif;
   --font-heading: 'DM Sans', sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo,
-    monospace;
+  --font-mono:
+    ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 
   --font-size-base: 1rem;
   --font-size-sm: 0.875rem;
@@ -1026,7 +1026,9 @@ button[data-filter].active {
   border-radius: 1rem;
   background-color: var(--color-bg-cards);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
   height: 100%;
 }
 

@@ -12,5 +12,6 @@ collections:
   projekte:
     output: true
     permalink: /projekt/:name/
-  cv:
-  coverletter:
+  insta:
+    output: true
+    permalink: /noinsta/:name/

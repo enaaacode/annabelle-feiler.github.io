@@ -10,48 +10,5 @@
       />
       <span class="visually-hidden">Zur Startseite</span>
     </a>
-
-    <nav class="site-header__nav">
-      <ul class="site-header__list">
-        {% for item in site.data.navigation %}
-        <li class="site-header__item">
-          <a
-            href="{{item.link}}"
-            class="site-header__link{% if page.url == item.link %} active{% endif %}"
-          >
-            {{item.title}}
-            <span class="visually-hidden">von Annabelle Feiler</span>
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </nav>
-
-    <!-- Burger-Menü Button für Mobile -->
-    <nav class="burger-menue">
-      <button id="burger-icon" aria-label="Menü öffnen">
-        <img src="/assets/icons/burger_menue.svg" alt="Burger Menu" />
-      </button>
-    </nav>
-
-    <!-- Overlay für das mobile Menü -->
-    <div id="mobile-overlay" class="mobile-overlay">
-      <div class="close-button" id="close-button">
-        <img src="/assets/icons/xmark.svg" alt="Schließen" />
-      </div>
-
-      <nav class="mobile-nav">
-        <ul>
-          {% for item in site.data.navigation %}
-          <li class="site-header__item">
-            <a href="{{item.link}}">
-              {{item.title}}
-              <span class="visually-hidden">von Annabelle Feiler</span>
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </div>
   </div>
 </header>

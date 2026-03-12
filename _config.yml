@@ -5,7 +5,5 @@ title: 'studio feiler'
 author:
   name: 'Annabelle Feiler'
 
-highlighter: rouge # code highlighter for markdown
-
 collections:
   leistungen:

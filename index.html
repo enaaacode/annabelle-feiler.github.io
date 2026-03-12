@@ -60,24 +60,21 @@ title: 'studio feiler ✷ Nachhaltige und barrierefreie Gestaltung'
   </div>
 </section>
 
-<div class="contentsite">
-  <div class="heading">
-    <h1>Ich mache Sachen</h1>
+<section id="leistungen">
+  <h1>Ich mache Sachen</h1>
+
+  {% for item in site.leistungen %}
+  <div class="content-box boxradius">
+    <h2>{{ item.title }}</h2>
+
+    {{ item.beschreibung }}
+
+    <details>
+      <summary><strong>Mögliche Projekte</strong></summary>
+      {{ item.content }}
+    </details>
   </div>
-  <section class="leistungen" id="leistungen">
-    {% for item in site.leistungen %}
-    <div class="content-box boxradius">
-      <h2>{{ item.title }}</h2>
-
-      {{ item.beschreibung }}
-
-      <details>
-        <summary><strong>Mögliche Projekte</strong></summary>
-        {{ item.content }}
-      </details>
-    </div>
-    {% endfor %}
-  </section>
+  {% endfor %}
 
   <div class="button-wrapper">
     <a
@@ -89,4 +86,48 @@ title: 'studio feiler ✷ Nachhaltige und barrierefreie Gestaltung'
       Projekt anfragen
     </a>
   </div>
-</div>
+</section>
+
+<section class="a11y-webring-club boxradius">
+  <div id="a11y-webring-club">
+    <div class="heading">
+      <h2>a11y-webring.club</h2>
+      <p>
+        Diese Website ist Mitglied des
+        <a rel="external" href="https://a11y-webring.club/">
+          a11y-webring.club
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="a11y-grid">
+    <div class="a11y-box">
+      <a
+        rel="external"
+        referrerpolicy="strict-origin"
+        href="https://a11y-webring.club/prev"
+      >
+        Vorherige Website
+      </a>
+    </div>
+    <div class="a11y-box">
+      <a
+        rel="external"
+        referrerpolicy="strict-origin"
+        href="https://a11y-webring.club/random"
+      >
+        Zufällige Website
+      </a>
+    </div>
+    <div class="a11y-box">
+      <a
+        rel="external"
+        referrerpolicy="strict-origin"
+        href="https://a11y-webring.club/next"
+      >
+        Nächste Website
+      </a>
+    </div>
+  </div>
+</section>

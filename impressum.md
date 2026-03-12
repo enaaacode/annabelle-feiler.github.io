@@ -23,7 +23,7 @@ Einfluss auf das, was dort veröffentlicht wird. Sollte mir eine
 Rechtsverletzung auf einer verlinkten Seite auffallen, werde ich den
 Link selbstverständlich umgehend entfernen.
 
-## Urheberrecht
+## Urheberinnenrecht
 
 Alle Inhalte und Werke auf dieser Website habe ich mit viel Sorgfalt
 selbst erstellt. Sie unterliegen dem deutschen Urheberinnenrecht. Das

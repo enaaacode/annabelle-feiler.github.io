@@ -1,11 +1,6 @@
 url: 'https://studio-feiler.com'
 baseurl: ''
-title: 'studio feiler ✷ Nachhaltige und barrierefreie Gestaltung'
+title: 'studio feiler'
 
 author:
   name: 'Annabelle Feiler'
-
-highlighter: rouge # code highlighter for markdown
-
-collections:
-  leistungen:

@@ -10,7 +10,3 @@ highlighter: rouge # code highlighter for markdown
 collections:
   leistungen:
   projekte:
-    output: true
-    permalink: /projekt/:name/
-  cv:
-  coverletter:

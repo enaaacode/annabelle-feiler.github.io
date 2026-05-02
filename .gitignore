@@ -4,16 +4,3 @@ assets/images/.DS_Store
 
 _site/
 _drafts/
-
-privat/
-_layouts/privat.html
-assets/css/privat.css
-
-assets/js/github_api.js
-assets/css/github_api.css
-github-projekte.html
-
-assets/images/referenzen/unpublished/
-_coverletter/CORRECTIV_Software-Dev.md
-_coverletter_alt/CKM-Group_Jr-Frontend-Dev.md
-coverletter.html

@@ -9,4 +9,3 @@ highlighter: rouge # code highlighter for markdown
 
 collections:
   leistungen:
-  projekte:

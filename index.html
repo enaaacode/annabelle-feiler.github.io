@@ -1,91 +1,50 @@
 ---
 layout: startseite
-title: 'studio feiler ✷ Nachhaltige und barrierefreie Gestaltung'
+title: "studio feiler ✷ Startseite"
 ---
 
-<section class="intro">
-  <div class="intro-content">
-    <div class="intro-box boxradius">
-      <div class="intro-image boxradius">
-        <img
-          src="assets/images/bild_startseite.png"
-          alt="Hölzerner Dock umgeben von grünem Gras nahe Berg unter weißen Wolken und blauem Himmel tagsüber."
-          width="600"
-          height="400"
-        />
-      </div>
-      <div class="intro-text">
-        <div class="intro-headline">
-          <h1>Nachhaltige und barrierefreie Gestaltung</h1>
-          <p class="code-style">
-            Hi, ich bin Annabelle 👋 Digitale Tüftlerin, überzeugte Verfechterin
-            von menschzentriertem Design & Wegbegleiterin.
-          </p>
-        </div>
-        <p>
-          Ich gestalte und entwickle Websites, die nicht nur gut aussehen und
-          funktional sind, sondern auch ökologisch sinnvoll und inklusiv.
-          Gestalterisch durchdacht und mit einem Fokus auf das Wesentliche: die
-          Menschen, die sie nutzen.
-        </p>
-        <p>Wollen wir ein Stück zusammen gehen?</p>
+<section class="intro-section">
+  <h1 style="display: none">Annabelle Feiler</h1>
+  <p class="intro-p">
+    Hi, ich bin Annabelle Feiler. <br />Ausgebildete Mediengestalterin,
+    studierte Designerin und seit 2017 freiberuflich tätig.
+  </p>
 
-        <div class="button-wrapper">
-          <a
-            class="button primary"
-            href="mailto:hello@studio-feiler.com?subject=Anfrage&body=Hi Annabelle,"
-            aria-label="Annabelle direkt per E-Mail kontaktieren"
-            title="Schreib mir eine E-Mail"
-          >
-            Projekt anfragen
-          </a>
-        </div>
-      </div>
+  <p class="code-style">
+    Aktuell verschiebt sich mein Fokus weg von rein klassischem Auftragsdesign
+    hin zu einer freieren, künstlerischen Praxis. Mich interessieren digitale
+    Selbstbestimmung, die Logik von Arbeit und Leistung sowie die Frage, wie ein
+    gutes Leben jenseits ständiger Verfügbarkeit aussehen kann.
+    <br />
+    <br />
+    Trotz dieser Verschiebung arbeite ich weiterhin selektiv an Aufträgen aus
+    den Bereichen Web-, UX- und Kommunikationsdesign. Besonders interessiert bin
+    ich an Projekten mit inhaltlicher Tiefe, klarer Haltung oder
+    gesellschaftlichem Bezug.
+  </p>
+</section>
+
+<section class="projekte-section">
+  <h2>Projekte</h2>
+
+  <div class="projekte-grid">
+    {% for projekt in site.data.projekte %}
+
+    <div class="projekt-img boxradius">
+      <img src="{{ projekt.bild }}" alt="{{ projekt.titel }}" />
     </div>
 
-    <div class="intro-grid">
-      {% for item in site.data.fakten-grid %}
-      <div class="intro-grid-box boxradius">
-        <div class="intro-grid-zahl">{{item.kennzahl}}</div>
-        <div class="intro-grid-text">{{item.beschreibung}}</div>
-      </div>
-      {% endfor %}
-    </div>
+    {% endfor %}
   </div>
 </section>
 
-<section class="leistungen" id="leistungen">
-
-  <div class="heading">
-    <h2>Meine Leistungen</h2>
-    <p>Webdesign, Grafikdesign, Illustration</p>
-  </div>
-
-  <section class="leistungen">
-    <div class="leistungen-grid">
-      {% for item in site.data.leistungen %}
-
-      <div class="leistungen-grid-box boxradius">
-        <div class="leistungen-icon">
-          <img src="{{item.icon}}" alt="" width="16px" height="16px" />
-        </div>
-        <div class="leistungen-grid-text">
-          <h3>{{item.titel}}</h3>
-          <p>{{item.beschreibung}}</p>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-
-  <div class="button-wrapper">
-    <a
-      class="button primary"
-      href="mailto:hello@studio-feiler.com?subject=Anfrage&body=Hi Annabelle,"
-      aria-label="Annabelle direkt per E-Mail kontaktieren"
-      title="Schreib mir eine E-Mail"
-    >
-      Projekt anfragen
-    </a>
-  </div>
-</section>
+<div class="button-wrapper">
+  <a
+    class="button primary"
+    href="mailto:hello@studio-feiler.com?subject=Anfrage&body=Hi Annabelle,"
+    aria-label="Annabelle direkt per E-Mail kontaktieren"
+    title="Projekt per E-Mail anfragen"
+  >
+    Projekt anfragen
+  </a>
+</div>

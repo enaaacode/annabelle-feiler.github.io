@@ -1,59 +1,17 @@
-- kundin: 'Ev. Müttergenesung Württemberg gGmbH'
-  titel: 'Website Relaunch'
-  beschreibung: 'Mit Fokus auf digitale Barrierefreiheit habe ich die
-    Website neu gedacht, das Design modernisiert und die Seite für mobile Geräte optimiert. Von der Idee, über die Gestaltung bis zur finalen technischen Umsetzung.'
-  link: 'https://muettergenesung-kur.de/'
-  linktext: 'Website ansehen'
-  tools: 'HTML, CSS, JavaScript, Jekyll, GitHub Pages'
-  bild: 'assets/images/referenzen/referenz_af_muettergenesung_web.jpg'
+- bild: "assets/images/referenzen/referenz_af_faultier.jpg"
 
-- kundin: 'Ev. Müttergenesung Württemberg gGmbH'
-  titel: 'Imagebroschüren'
-  beschreibung: 'Für die Einrichtungen in Bad Wurzach, Loßburg und Scheidegg habe ich neue Imagebroschüren gestaltet. Das Ergebnis ist ein visueller Dreiklang, der die Verbundenheit der Kliniken auf einen Blick spürbar macht.'
-  tools: 'Affinity Publisher, Affinity Designer'
-  bild: 'assets/images/referenzen/referenz_af_muettergenesung_borschure.jpg'
+- bild: "assets/images/referenzen/referenz_af_enalarson.jpg"
 
-- kundin: 'Freies Projekt'
-  titel: 'Ein illustriertes Kinderbuch'
-  beschreibung: 'Eine Geschichte von Manfred Kyber, illustriert von mir: Ein Äffchen möchte energischer werden und trifft auf ein Faultier. Das Äffchen ist überzeugt: Auch das Faultier braucht mehr Schwung!'
-  tools: 'Procreate, Adobe Illustrator'
-  bild: 'assets/images/referenzen/referenz_af_faultier.jpg'
-  
-- kundin: 'Stadt Heidenheim'
-  titel: 'Heidenheim erleben'
-  beschreibung:
-    'Rund um das Projekt „Heidenheim erleben“ entstand ein einheitliches visuelles Erscheinungsbild.
-    Ich entwickelte ein prägnantes Logo als Herzstück der Markenidentität und eine konsistente Brand Identity. Landingpage, Flyer und Plakat sorten für eine stimmige, crossmediale Kommunikation.'
-  linktext: 'Mehr zur App erfahren'
-  tools: 'Adobe InDesign, Adobe Illustrator, Adobe Xd'
-  bild: 'assets/images/referenzen/referenz_af_heidenheim.jpg'
+- bild: "assets/images/referenzen/referenz_af_muettergenesung_web.jpg"
 
-- kundin: 'VAG Nürnberg'
-  titel: 'NürnbergMOBIL App'
-  beschreibung:
-    'Gemeinsam mit insert effect aus Nürnberg habe ich die App in puncto
-    digitale Barrierefreiheit optimiert. Hierfür wurden Workshop konzipiert
-    und durchgeführt, und ein barrierefreies Design System in
-    Figma aufgebaut.'
-  link: 'https://www.nuernbergmobil.de/'
-  linktext: 'Mehr zur App erfahren'
-  tools: 'Figma'
-  bild: 'assets/images/referenzen/referenz_af_nuemo.jpg'
+- bild: "assets/images/referenzen/referenz_af_inktober.jpg"
 
-- kundin: 'Freies Projekt'
-  titel: 'Etsy Shop'
-  beschreibung: '2020 habe ich meinen Etsy Shop „ena larson“ eröffnet. Hier verkaufte ich bis 2025 Drucke, Postkarten und Sticker mit Motiven aus dem nordischen Pantheon.'
-  tools: 'Affinity Designer, Adobe Illustrator'
-  bild: 'assets/images/referenzen/referenz_af_enalarson.jpg'
+- bild: "assets/images/referenzen/referenz_af_muettergenesung_borschure.jpg"
 
-- kundin: 'Freies Projekt'
-  titel: 'Visitenkarten'
-  beschreibung: 'Es gibt Menschen die behaupten Print sei tot. Ich gehöre nicht dazu. Ich habe eine große Liebe im Herzen für wertige Papiere und feine Veredelungen.'
-  tools: 'Affinity Designer, Affinity Publisher'
-  bild: 'assets/images/referenzen/referenz_af_vk.jpg'
+- bild: "assets/images/referenzen/referenz_af_enalarson2.jpg"
 
-- kundin: 'Max Schlatterer GmbH & Co. KG'
-  titel: 'Recruiting Postkarte'
-  beschreibung: 'Ich habe eine Postkarte gestaltet, die junge Talente direkt ansprechen soll. Im gleichen Look habe ich das Design für eine Landingpage entwickelt.'
-  tools: 'Affinity Publisher'
-  bild: 'assets/images/referenzen/referenz_af_esband_postcard.jpg'
+- bild: "assets/images/referenzen/referenz_af_heidenheim.jpg"
+
+- bild: "assets/images/referenzen/referenz_af_insta.jpg"
+
+- bild: "assets/images/referenzen/referenz_af_esband_postcard.jpg"

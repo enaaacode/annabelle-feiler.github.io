@@ -127,12 +127,21 @@ span {
 
 .site-footer {
   padding: 2rem;
+  padding-top: 0rem;
   margin-top: auto; /* Footer bleibt unten */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-container {
+  background-color: #202d43;
+  width: 100%;
   display: flex;
   flex-direction: row;
   gap: 2rem;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
 }
 
 .site-footer a {
@@ -144,6 +153,12 @@ span {
   text-decoration: underline;
   text-decoration-thickness: 3px;
   text-decoration-color: var(--color-accent);
+}
+
+.external-icon {
+  font-size: 0.8em;
+  margin-left: 0.25rem;
+  display: inline-block;
 }
 
 /* ========================================================= */
@@ -181,9 +196,11 @@ span {
 .button-wrapper {
   margin: 0 auto;
 }
+
 /* ========================================================= */
 /* ===================== INTRO SECTION ===================== */
 /* ========================================================= */
+
 .intro-section {
   display: flex;
   flex-direction: column;

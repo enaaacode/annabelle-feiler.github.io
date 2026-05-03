@@ -144,6 +144,12 @@ span {
   padding: 2rem;
 }
 
+@media (max-width: 800px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
 .site-footer a {
   color: white;
   text-decoration: none;

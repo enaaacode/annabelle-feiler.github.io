@@ -10,6 +10,8 @@ Emsdettener Str. 10
 48268 Greven  
 Deutschland
 
+[hello@studio-feiler.com](mailto:hello@studio-feiler.com)
+
 ## Haftung für Links
 
 Auf meiner Website findest du auch Links zu externen Seiten. Ich habe
@@ -25,7 +27,6 @@ Mein Ziel ist es, allen Menschen einen möglichst gleichberechtigten Zugang zu m
 orientiert sich an den internationalen Richtlinien der Web Content Accessibility Guidelines (WCAG 2.2)
 
 Wenn dir Barrieren auffallen oder du Anregungen zur Verbesserung hast, freue ich mich über deine Rückmeldung.
-Schreib mir gern eine E-Mail an: [hello@studio-feiler.com](mailto:hello@studio-feiler.com)
 
 ## Urheberinnenrecht
 
@@ -45,7 +46,5 @@ Verwendung gemäß Pexels-Lizenz. Danke an <a href="https://www.pexels.com/de-de
 Ich erhebe oder speichere keine personenbezogenen Daten. Zur reinen Besuchsstatistik nutze ich GoatCounter. Das ist ein datenschutzfreundliches Analysetool. Dabei werden keine Cookies gesetzt und keine personenbezogenen Profile erstellt. Es geht mir nur darum zu sehen, wie viele Menschen meine Seite besuchen.
 
 Die Website wird über GitHub Pages gehostet. Beim Aufruf der Seite kann GitHub bestimmte technische Informationen wie IP-Adresse oder Browsertyp in Server-Logs speichern. Weitere Informationen dazu findest du in der Datenschutzerklärung von GitHub. <a target="_blank" rel="noopener" href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement">Diese findest du hier (klick mich).</a>
-
-Wenn du Fragen hast oder mich kontaktieren möchtest, erreichst du mich per E-Mail: [hello@studio-feiler.com](mailto:hello@studio-feiler.com)
 
 <small>Letzte Aktualisierung: Mai 2026</small>

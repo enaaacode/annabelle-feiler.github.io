@@ -40,11 +40,3 @@ kennzeichne ich das deutlich und achte auf die entsprechenden Rechte.
 
 Das Bild auf der Startseite stammt von <a href="https://www.pexels.com/" target="_blank" rel="noopener">Pexels.</a>
 Verwendung gemäß Pexels-Lizenz. Danke an <a href="https://www.pexels.com/de-de/@lastly/" target="_blank" rel="noopener">Tyler Lastovich</a> für das schöne Bild.
-
-## Datenschutz
-
-Ich erhebe oder speichere keine personenbezogenen Daten. Zur reinen Besuchsstatistik nutze ich GoatCounter. Das ist ein datenschutzfreundliches Analysetool. Dabei werden keine Cookies gesetzt und keine personenbezogenen Profile erstellt. Es geht mir nur darum zu sehen, wie viele Menschen meine Seite besuchen.
-
-Die Website wird über GitHub Pages gehostet. Beim Aufruf der Seite kann GitHub bestimmte technische Informationen wie IP-Adresse oder Browsertyp in Server-Logs speichern. Weitere Informationen dazu findest du in der Datenschutzerklärung von GitHub. <a target="_blank" rel="noopener" href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement">Diese findest du hier (klick mich).</a>
-
-<small>Letzte Aktualisierung: Mai 2026</small>
